@@ -2,12 +2,17 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #202020;
+  color: #ffffff; /* text color */
 }
 
 .container {
   width: 80%;
   margin: 100px auto;
   text-align: center;
+  background-color: #333333; /* darker background */
+  border-radius: 8px;
+  padding: 20px; /* increased padding for better readability */
 }
 
 button {
@@ -17,11 +22,11 @@ button {
   cursor: pointer;
   border: none;
   border-radius: 5px;
-  background-color: #4caf50;
-  color: white;
+  background-color: #007bff; /* primary button color */
+  color: #ffffff; /* text color */
   transition: background-color 0.3s;
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: #0056b3; /* slightly darker hover color */
 }

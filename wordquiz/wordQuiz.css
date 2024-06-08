@@ -2,13 +2,15 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #202020;
+  color: #ffffff; /* text color */
 }
 
 .container {
   max-width: 600px;
   margin: 50px auto;
   padding: 20px;
-  background-color: #fff;
+  background-color: #333333; /* darker background */
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -23,7 +25,7 @@ body {
 h1 {
   font-size: 24px;
   margin-bottom: 20px;
-  color: #333;
+  color: #ffffff; /* text color */
 }
 
 select,
@@ -32,8 +34,10 @@ input {
   margin: 5px auto;
   padding: 10px;
   font-size: 16px;
-  border: 1px solid #ccc;
+  border: 1px solid #666666; /* slightly lighter border */
   border-radius: 4px;
+  background-color: #333333; /* darker background */
+  color: #ffffff; /* text color */
 }
 
 select:focus,
@@ -65,27 +69,19 @@ button:hover {
 .japanese-word {
   font-size: 32px;
   margin-bottom: 20px;
-  color: #333;
+  color: #ffffff; /* text color */
 }
 
-#question {
-  margin-bottom: 10px;
-  font-weight: bold;
-  background-color: #f0f0f0;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
+#question,
 .result-message {
   margin-bottom: 10px;
   font-weight: bold;
-  background-color: #f0f0f0;
+  background-color: #444444; /* slightly darker background */
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .correct {
-  color: green;
+  color: #00ff00; /* green color for correct messages */
 }

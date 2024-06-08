@@ -2,6 +2,8 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #202020;
+  color: #ffffff; /* text color */
 }
 
 .homepage-button {
@@ -16,7 +18,7 @@ body {
   margin: 5px auto;
   padding: 10px;
   font-size: 16px;
-  border: 1px solid #ccc;
+  border: 1px solid #ffffff; /* lighter border */
   border-radius: 4px;
 }
 
@@ -36,24 +38,29 @@ select {
 ul {
   list-style: none;
   padding: 0;
+  background-color: #333333; /* darker background */
+  border-color: #000000; /* darker border */
 }
 
 li {
   margin-bottom: 5px;
   padding: 5px 10px;
-  background-color: #f0f0f0;
+  background-color: #333333; /* darker background */
   text-align: center;
+  border-color: #000000; /* darker border */
   border-radius: 5px;
 }
 
 select,
 button,
 input {
+  background-color: #333333; /* darker background */
   margin: 5px auto;
   padding: 10px;
   font-size: 16px;
-  border: 1px solid #ccc;
+  border: 1px solid #666666; /* slightly lighter border */
   border-radius: 4px;
+  color: #ffffff; /* text color */
 }
 
 select:focus,
@@ -75,5 +82,5 @@ button:hover {
 }
 
 li:hover {
-  background-color: #e0e0e0;
+  background-color: #555555; /* slightly lighter hover color */
 }
