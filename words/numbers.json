@@ -1,0 +1,602 @@
+[
+  {
+    "romanji": "ichi",
+    "hiragana": "いち",
+    "katakana": "イチ",
+    "translation": "one"
+  },
+  {
+    "romanji": "ni",
+    "hiragana": "に",
+    "katakana": "ニ",
+    "translation": "two"
+  },
+  {
+    "romanji": "san",
+    "hiragana": "さん",
+    "katakana": "サン",
+    "translation": "three"
+  },
+  {
+    "romanji": "yon",
+    "hiragana": "よん",
+    "katakana": "ヨン",
+    "translation": "four"
+  },
+  {
+    "romanji": "go",
+    "hiragana": "ご",
+    "katakana": "ゴ",
+    "translation": "five"
+  },
+  {
+    "romanji": "roku",
+    "hiragana": "ろく",
+    "katakana": "ロク",
+    "translation": "six"
+  },
+  {
+    "romanji": "shichi",
+    "hiragana": "しち",
+    "katakana": "シチ",
+    "translation": "seven"
+  },
+  {
+    "romanji": "hachi",
+    "hiragana": "はち",
+    "katakana": "ハチ",
+    "translation": "eight"
+  },
+  {
+    "romanji": "kyuu",
+    "hiragana": "きゅう",
+    "katakana": "キュウ",
+    "translation": "nine"
+  },
+  {
+    "romanji": "juu",
+    "hiragana": "じゅう",
+    "katakana": "ジュウ",
+    "translation": "ten"
+  },
+  {
+    "romanji": "juuichi",
+    "hiragana": "じゅういち",
+    "katakana": "ジュウイチ",
+    "translation": "eleven"
+  },
+  {
+    "romanji": "juuni",
+    "hiragana": "じゅうに",
+    "katakana": "ジュウニ",
+    "translation": "twelve"
+  },
+  {
+    "romanji": "juusan",
+    "hiragana": "じゅうさん",
+    "katakana": "ジュウサン",
+    "translation": "thirteen"
+  },
+  {
+    "romanji": "juuyon",
+    "hiragana": "じゅうよん",
+    "katakana": "ジュウヨン",
+    "translation": "fourteen"
+  },
+  {
+    "romanji": "juugo",
+    "hiragana": "じゅうご",
+    "katakana": "ジュウゴ",
+    "translation": "fifteen"
+  },
+  {
+    "romanji": "juuroku",
+    "hiragana": "じゅうろく",
+    "katakana": "ジュウロク",
+    "translation": "sixteen"
+  },
+  {
+    "romanji": "juushichi",
+    "hiragana": "じゅうしち",
+    "katakana": "ジュウシチ",
+    "translation": "seventeen"
+  },
+  {
+    "romanji": "juuhachi",
+    "hiragana": "じゅうはち",
+    "katakana": "ジュウハチ",
+    "translation": "eighteen"
+  },
+  {
+    "romanji": "juukyuu",
+    "hiragana": "じゅうきゅう",
+    "katakana": "ジュウキュウ",
+    "translation": "nineteen"
+  },
+  {
+    "romanji": "nijuu",
+    "hiragana": "にじゅう",
+    "katakana": "ニジュウ",
+    "translation": "twenty"
+  },
+  {
+    "romanji": "nijuuichi",
+    "hiragana": "にじゅういち",
+    "katakana": "ニジュウイチ",
+    "translation": "twenty-one"
+  },
+  {
+    "romanji": "nijuuni",
+    "hiragana": "にじゅうに",
+    "katakana": "ニジュウニ",
+    "translation": "twenty-two"
+  },
+  {
+    "romanji": "nijuusan",
+    "hiragana": "にじゅうさん",
+    "katakana": "ニジュウサン",
+    "translation": "twenty-three"
+  },
+  {
+    "romanji": "nijuuyon",
+    "hiragana": "にじゅうよん",
+    "katakana": "ニジュウヨン",
+    "translation": "twenty-four"
+  },
+  {
+    "romanji": "nijuugo",
+    "hiragana": "にじゅうご",
+    "katakana": "ニジュウゴ",
+    "translation": "twenty-five"
+  },
+  {
+    "romanji": "nijuuroku",
+    "hiragana": "にじゅうろく",
+    "katakana": "ニジュウロク",
+    "translation": "twenty-six"
+  },
+  {
+    "romanji": "nijuushichi",
+    "hiragana": "にじゅうしち",
+    "katakana": "ニジュウシチ",
+    "translation": "twenty-seven"
+  },
+  {
+    "romanji": "nijuuhachi",
+    "hiragana": "にじゅうはち",
+    "katakana": "ニジュウハチ",
+    "translation": "twenty-eight"
+  },
+  {
+    "romanji": "nijuukyuu",
+    "hiragana": "にじゅうきゅう",
+    "katakana": "ニジュウキュウ",
+    "translation": "twenty-nine"
+  },
+  {
+    "romanji": "sanjuu",
+    "hiragana": "さんじゅう",
+    "katakana": "サンジュウ",
+    "translation": "thirty"
+  },
+  {
+    "romanji": "sanjuuichi",
+    "hiragana": "さんじゅういち",
+    "katakana": "サンジュウイチ",
+    "translation": "thirty-one"
+  },
+  {
+    "romanji": "sanjuuni",
+    "hiragana": "さんじゅうに",
+    "katakana": "サンジュウニ",
+    "translation": "thirty-two"
+  },
+  {
+    "romanji": "sanjuusan",
+    "hiragana": "さんじゅうさん",
+    "katakana": "サンジュウサン",
+    "translation": "thirty-three"
+  },
+  {
+    "romanji": "sanjuuyon",
+    "hiragana": "さんじゅうよん",
+    "katakana": "サンジュウヨン",
+    "translation": "thirty-four"
+  },
+  {
+    "romanji": "sanjuugo",
+    "hiragana": "さんじゅうご",
+    "katakana": "サンジュウゴ",
+    "translation": "thirty-five"
+  },
+  {
+    "romanji": "sanjuuroku",
+    "hiragana": "さんじゅうろく",
+    "katakana": "サンジュウロク",
+    "translation": "thirty-six"
+  },
+  {
+    "romanji": "sanjuushichi",
+    "hiragana": "さんじゅうしち",
+    "katakana": "サンジュウシチ",
+    "translation": "thirty-seven"
+  },
+  {
+    "romanji": "sanjuuhachi",
+    "hiragana": "さんじゅうはち",
+    "katakana": "サンジュウハチ",
+    "translation": "thirty-eight"
+  },
+  {
+    "romanji": "sanjuukyuu",
+    "hiragana": "さんじゅうきゅう",
+    "katakana": "サンジュウキュウ",
+    "translation": "thirty-nine"
+  },
+  {
+    "romanji": "yonjuu",
+    "hiragana": "よんじゅう",
+    "katakana": "ヨンジュウ",
+    "translation": "forty"
+  },
+  {
+    "romanji": "yonjuuichi",
+    "hiragana": "よんじゅういち",
+    "katakana": "ヨンジュウイチ",
+    "translation": "forty-one"
+  },
+  {
+    "romanji": "yonjuuni",
+    "hiragana": "よんじゅうに",
+    "katakana": "ヨンジュウニ",
+    "translation": "forty-two"
+  },
+  {
+    "romanji": "yonjuusan",
+    "hiragana": "よんじゅうさん",
+    "katakana": "ヨンジュウサン",
+    "translation": "forty-three"
+  },
+  {
+    "romanji": "yonjuuyon",
+    "hiragana": "よんじゅうよん",
+    "katakana": "ヨンジュウヨン",
+    "translation": "forty-four"
+  },
+  {
+    "romanji": "yonjuugo",
+    "hiragana": "よんじゅうご",
+    "katakana": "ヨンジュウゴ",
+    "translation": "forty-five"
+  },
+  {
+    "romanji": "yonjuuroku",
+    "hiragana": "よんじゅうろく",
+    "katakana": "ヨンジュウロク",
+    "translation": "forty-six"
+  },
+  {
+    "romanji": "yonjuushichi",
+    "hiragana": "よんじゅうしち",
+    "katakana": "ヨンジュウシチ",
+    "translation": "forty-seven"
+  },
+  {
+    "romanji": "yonjuuhachi",
+    "hiragana": "よんじゅうはち",
+    "katakana": "ヨンジュウハチ",
+    "translation": "forty-eight"
+  },
+  {
+    "romanji": "yonjuukyuu",
+    "hiragana": "よんじゅうきゅう",
+    "katakana": "ヨンジュウキュウ",
+    "translation": "forty-nine"
+  },
+  {
+    "romanji": "gojuu",
+    "hiragana": "ごじゅう",
+    "katakana": "ゴジュウ",
+    "translation": "fifty"
+  },
+  {
+    "romanji": "gojuuichi",
+    "hiragana": "ごじゅういち",
+    "katakana": "ゴジュウイチ",
+    "translation": "fifty-one"
+  },
+  {
+    "romanji": "gojuuni",
+    "hiragana": "ごじゅうに",
+    "katakana": "ゴジュウニ",
+    "translation": "fifty-two"
+  },
+  {
+    "romanji": "gojuusan",
+    "hiragana": "ごじゅうさん",
+    "katakana": "ゴジュウサン",
+    "translation": "fifty-three"
+  },
+  {
+    "romanji": "gojuuyon",
+    "hiragana": "ごじゅうよん",
+    "katakana": "ゴジュウヨン",
+    "translation": "fifty-four"
+  },
+  {
+    "romanji": "gojuugo",
+    "hiragana": "ごじゅうご",
+    "katakana": "ゴジュウゴ",
+    "translation": "fifty-five"
+  },
+  {
+    "romanji": "gojuuroku",
+    "hiragana": "ごじゅうろく",
+    "katakana": "ゴジュウロク",
+    "translation": "fifty-six"
+  },
+  {
+    "romanji": "gojuushichi",
+    "hiragana": "ごじゅうしち",
+    "katakana": "ゴジュウシチ",
+    "translation": "fifty-seven"
+  },
+  {
+    "romanji": "gojuuhachi",
+    "hiragana": "ごじゅうはち",
+    "katakana": "ゴジュウハチ",
+    "translation": "fifty-eight"
+  },
+  {
+    "romanji": "gojuukyuu",
+    "hiragana": "ごじゅうきゅう",
+    "katakana": "ゴジュウキュウ",
+    "translation": "fifty-nine"
+  },
+  {
+    "romanji": "rokujuu",
+    "hiragana": "ろくじゅう",
+    "katakana": "ロクジュウ",
+    "translation": "sixty"
+  },
+  {
+    "romanji": "rokujuuichi",
+    "hiragana": "ろくじゅういち",
+    "katakana": "ロクジュウイチ",
+    "translation": "sixty-one"
+  },
+  {
+    "romanji": "rokujuuni",
+    "hiragana": "ろくじゅうに",
+    "katakana": "ロクジュウニ",
+    "translation": "sixty-two"
+  },
+  {
+    "romanji": "rokujuusan",
+    "hiragana": "ろくじゅうさん",
+    "katakana": "ロクジュウサン",
+    "translation": "sixty-three"
+  },
+  {
+    "romanji": "rokujuuyon",
+    "hiragana": "ろくじゅうよん",
+    "katakana": "ロクジュウヨン",
+    "translation": "sixty-four"
+  },
+  {
+    "romanji": "rokujuugo",
+    "hiragana": "ろくじゅうご",
+    "katakana": "ロクジュウゴ",
+    "translation": "sixty-five"
+  },
+  {
+    "romanji": "rokujuuroku",
+    "hiragana": "ろくじゅうろく",
+    "katakana": "ロクジュウロク",
+    "translation": "sixty-six"
+  },
+  {
+    "romanji": "rokujuushichi",
+    "hiragana": "ろくじゅうしち",
+    "katakana": "ロクジュウシチ",
+    "translation": "sixty-seven"
+  },
+  {
+    "romanji": "rokujuuhachi",
+    "hiragana": "ろくじゅうはち",
+    "katakana": "ロクジュウハチ",
+    "translation": "sixty-eight"
+  },
+  {
+    "romanji": "rokujuukyuu",
+    "hiragana": "ろくじゅうきゅう",
+    "katakana": "ロクジュウキュウ",
+    "translation": "sixty-nine"
+  },
+  {
+    "romanji": "nanajuu",
+    "hiragana": "ななじゅう",
+    "katakana": "ナナジュウ",
+    "translation": "seventy"
+  },
+  {
+    "romanji": "nanajuuichi",
+    "hiragana": "ななじゅういち",
+    "katakana": "ナナジュウイチ",
+    "translation": "seventy-one"
+  },
+  {
+    "romanji": "nanajuuni",
+    "hiragana": "ななじゅうに",
+    "katakana": "ナナジュウニ",
+    "translation": "seventy-two"
+  },
+  {
+    "romanji": "nanajuusan",
+    "hiragana": "ななじゅうさん",
+    "katakana": "ナナジュウサン",
+    "translation": "seventy-three"
+  },
+  {
+    "romanji": "nanajuuyon",
+    "hiragana": "ななじゅうよん",
+    "katakana": "ナナジュウヨン",
+    "translation": "seventy-four"
+  },
+  {
+    "romanji": "nanajuugo",
+    "hiragana": "ななじゅうご",
+    "katakana": "ナナジュウゴ",
+    "translation": "seventy-five"
+  },
+  {
+    "romanji": "nanajuuroku",
+    "hiragana": "ななじゅうろく",
+    "katakana": "ナナジュウロク",
+    "translation": "seventy-six"
+  },
+  {
+    "romanji": "nanajuushichi",
+    "hiragana": "ななじゅうしち",
+    "katakana": "ナナジュウシチ",
+    "translation": "seventy-seven"
+  },
+  {
+    "romanji": "nanajuuhachi",
+    "hiragana": "ななじゅうはち",
+    "katakana": "ナナジュウハチ",
+    "translation": "seventy-eight"
+  },
+  {
+    "romanji": "nanajuukyuu",
+    "hiragana": "ななじゅうきゅう",
+    "katakana": "ナナジュウキュウ",
+    "translation": "seventy-nine"
+  },
+  {
+    "romanji": "hachiju",
+    "hiragana": "はちじゅう",
+    "katakana": "ハチジュウ",
+    "translation": "eighty"
+  },
+  {
+    "romanji": "hachijuichi",
+    "hiragana": "はちじゅういち",
+    "katakana": "ハチジュウイチ",
+    "translation": "eighty-one"
+  },
+  {
+    "romanji": "hachijuuni",
+    "hiragana": "はちじゅうに",
+    "katakana": "ハチジュウニ",
+    "translation": "eighty-two"
+  },
+  {
+    "romanji": "hachijuusan",
+    "hiragana": "はちじゅうさん",
+    "katakana": "ハチジュウサン",
+    "translation": "eighty-three"
+  },
+  {
+    "romanji": "hachijuuyon",
+    "hiragana": "はちじゅうよん",
+    "katakana": "ハチジュウヨン",
+    "translation": "eighty-four"
+  },
+  {
+    "romanji": "hachijuugo",
+    "hiragana": "はちじゅうご",
+    "katakana": "ハチジュウゴ",
+    "translation": "eighty-five"
+  },
+  {
+    "romanji": "hachijuuroku",
+    "hiragana": "はちじゅうろく",
+    "katakana": "ハチジュウロク",
+    "translation": "eighty-six"
+  },
+  {
+    "romanji": "hachijuushichi",
+    "hiragana": "はちじゅうしち",
+    "katakana": "ハチジュウシチ",
+    "translation": "eighty-seven"
+  },
+  {
+    "romanji": "hachijuuhachi",
+    "hiragana": "はちじゅうはち",
+    "katakana": "ハチジュウハチ",
+    "translation": "eighty-eight"
+  },
+  {
+    "romanji": "hachijuukyuu",
+    "hiragana": "はちじゅうきゅう",
+    "katakana": "ハチジュウキュウ",
+    "translation": "eighty-nine"
+  },
+  {
+    "romanji": "kyuujuu",
+    "hiragana": "きゅうじゅう",
+    "katakana": "キュウジュウ",
+    "translation": "ninety"
+  },
+  {
+    "romanji": "kyuujuuichi",
+    "hiragana": "きゅうじゅういち",
+    "katakana": "キュウジュウイチ",
+    "translation": "ninety-one"
+  },
+  {
+    "romanji": "kyuujuuni",
+    "hiragana": "きゅうじゅうに",
+    "katakana": "キュウジュウニ",
+    "translation": "ninety-two"
+  },
+  {
+    "romanji": "kyuujuusan",
+    "hiragana": "きゅうじゅうさん",
+    "katakana": "キュウジュウサン",
+    "translation": "ninety-three"
+  },
+  {
+    "romanji": "kyuujuuyon",
+    "hiragana": "きゅうじゅうよん",
+    "katakana": "キュウジュウヨン",
+    "translation": "ninety-four"
+  },
+  {
+    "romanji": "kyuujuugo",
+    "hiragana": "きゅうじゅうご",
+    "katakana": "キュウジュウゴ",
+    "translation": "ninety-five"
+  },
+  {
+    "romanji": "kyuujuuroku",
+    "hiragana": "きゅうじゅうろく",
+    "katakana": "キュウジュウロク",
+    "translation": "ninety-six"
+  },
+  {
+    "romanji": "kyuujuushichi",
+    "hiragana": "きゅうじゅうしち",
+    "katakana": "キュウジュウシチ",
+    "translation": "ninety-seven"
+  },
+  {
+    "romanji": "kyuujuuhachi",
+    "hiragana": "きゅうじゅうはち",
+    "katakana": "キュウジュウハチ",
+    "translation": "ninety-eight"
+  },
+  {
+    "romanji": "kyuujuukyuu",
+    "hiragana": "きゅうじゅうきゅう",
+    "katakana": "キュウジュウキュウ",
+    "translation": "ninety-nine"
+  },
+  {
+    "romanji": "hyaku",
+    "hiragana": "ひゃく",
+    "katakana": "ヒャク",
+    "translation": "hundred"
+  }
+]
