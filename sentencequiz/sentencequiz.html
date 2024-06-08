@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sentence Quiz</title>
+    <link rel="stylesheet" href="sentencequiz.css" />
+  </head>
+  <body>
+    <button onclick="location.href='../index.html'" class="homepage-button">
+      Homepage
+    </button>
+    <h1>Sentence Quiz</h1>
+    <div class="container">
+      <label for="format">Select Format:</label>
+      <select id="format">
+        <option value="romanji">Romanji</option>
+        <option value="hiragana">Hiragana</option>
+        <option value="katakana">Katakana</option>
+      </select>
+      <p id="question"></p>
+      <input type="text" id="answer" placeholder="Enter your answer" />
+      <button id="checkBtn">Check</button>
+      <button id="revealBtn">Reveal Answer</button>
+      <button id="skipBtn">Skip</button>
+      <p id="result"></p>
+    </div>
+
+    <script src="sentencequiz.js"></script>
+  </body>
+</html>

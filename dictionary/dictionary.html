@@ -1,0 +1,33 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dictionary.css" />
+    <title>Japanese Dictionary</title>
+  </head>
+  <body>
+    <button onclick="location.href='../index.html'" class="homepage-button">
+      Homepage
+    </button>
+    <h1>Japanese Dictionary</h1>
+
+    <label for="wordType">Select Word Type:</label>
+    <select id="wordType">
+      <option value="easy">Easy Words</option>
+      <option value="medium">Medium Words</option>
+      <option value="hard">Hard Words</option>
+      <option value="sentences">Senteces</option>
+    </select>
+
+    <label for="scriptType">Select Script Type:</label>
+    <select id="scriptType">
+      <option value="romanji">Romanji</option>
+      <option value="katakana">Katakana</option>
+      <option value="hiragana">Hiragana</option>
+    </select>
+
+    <ul id="wordList"></ul>
+
+    <script src="dictionary.js"></script>
+  </body>
+</html>

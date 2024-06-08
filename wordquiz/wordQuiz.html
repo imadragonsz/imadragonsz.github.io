@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Japanese Word Quiz</title>
+    <link rel="stylesheet" href="wordQuiz.css" />
+  </head>
+  <body>
+    <button onclick="location.href='../index.html'" class="homepage-button">
+      Homepage
+    </button>
+    <div class="container">
+      <h1>Japanese Word Quiz</h1>
+
+      <div class="difficulty">
+        <label for="difficulty">Select Difficulty:</label>
+        <select id="difficulty">
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+      </div>
+      <div class="format">
+        <label for="format">Select Format:</label>
+        <select id="format">
+          <option value="romanji">Romanji</option>
+          <option value="hiragana">Hiragana</option>
+          <option value="katakana">Katakana</option>
+        </select>
+      </div>
+      <div class="quiz">
+        <div id="question"></div>
+        <input type="text" id="answer" placeholder="Enter your answer" />
+        <p id="result"></p>
+      </div>
+      <div id="buttons">
+        <button id="checkBtn">Check</button>
+        <button id="revealBtn">Reveal Answer</button>
+        <button id="skipBtn">Skip</button>
+      </div>
+    </div>
+    <script src="wordQuiz.js"></script>
+  </body>
+</html>

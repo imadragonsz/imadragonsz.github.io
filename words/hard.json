@@ -1,0 +1,374 @@
+[
+  {
+    "romanji": "kutsu",
+    "hiragana": "くつ",
+    "katakana": "クツ",
+    "translation": "shoe"
+  },
+  {
+    "romanji": "hon",
+    "hiragana": "ほん",
+    "katakana": "ホン",
+    "translation": "book"
+  },
+  {
+    "romanji": "kami",
+    "hiragana": "かみ",
+    "katakana": "カミ",
+    "translation": "paper"
+  },
+  {
+    "romanji": "ringo",
+    "hiragana": "りんご",
+    "katakana": "リンゴ",
+    "translation": "apple"
+  },
+  {
+    "romanji": "benkyou",
+    "hiragana": "べんきょう",
+    "katakana": "ベンキョウ",
+    "translation": "study"
+  },
+  {
+    "romanji": "eki",
+    "hiragana": "えき",
+    "katakana": "エキ",
+    "translation": "train station"
+  },
+  {
+    "romanji": "densha",
+    "hiragana": "でんしゃ",
+    "katakana": "デンシャ",
+    "translation": "train"
+  },
+  {
+    "romanji": "gakkou",
+    "hiragana": "がっこう",
+    "katakana": "ガッコウ",
+    "translation": "school"
+  },
+  {
+    "romanji": "ima",
+    "hiragana": "いま",
+    "katakana": "イマ",
+    "translation": "now"
+  },
+  {
+    "romanji": "ashita",
+    "hiragana": "あした",
+    "katakana": "アシタ",
+    "translation": "tomorrow"
+  },
+  {
+    "romanji": "kinou",
+    "hiragana": "きのう",
+    "katakana": "キノウ",
+    "translation": "yesterday"
+  },
+  {
+    "romanji": "itsumo",
+    "hiragana": "いつも",
+    "katakana": "イツモ",
+    "translation": "always"
+  },
+  {
+    "romanji": "tokidoki",
+    "hiragana": "ときどき",
+    "katakana": "トキドキ",
+    "translation": "sometimes"
+  },
+  {
+    "romanji": "douyatte",
+    "hiragana": "どうやって",
+    "katakana": "ドウヤッテ",
+    "translation": "how"
+  },
+  {
+    "romanji": "doko",
+    "hiragana": "どこ",
+    "katakana": "ドコ",
+    "translation": "where"
+  },
+  {
+    "romanji": "dochira",
+    "hiragana": "どちら",
+    "katakana": "ドチラ",
+    "translation": "which"
+  },
+  {
+    "romanji": "naze",
+    "hiragana": "なぜ",
+    "katakana": "ナゼ",
+    "translation": "why"
+  },
+  {
+    "romanji": "itsu",
+    "hiragana": "いつ",
+    "katakana": "イツ",
+    "translation": "when"
+  },
+  {
+    "romanji": "nan",
+    "hiragana": "なん",
+    "katakana": "ナン",
+    "translation": "what"
+  },
+  {
+    "romanji": "nani",
+    "hiragana": "なに",
+    "katakana": "ナニ",
+    "translation": "what"
+  },
+  {
+    "romanji": "dare",
+    "hiragana": "だれ",
+    "katakana": "ダレ",
+    "translation": "who"
+  },
+  {
+    "romanji": "anou",
+    "hiragana": "あのう",
+    "katakana": "アノウ",
+    "translation": "um"
+  },
+  {
+    "romanji": "suki",
+    "hiragana": "すき",
+    "katakana": "スキ",
+    "translation": "like"
+  },
+  {
+    "romanji": "kirai",
+    "hiragana": "きらい",
+    "katakana": "キライ",
+    "translation": "dislike"
+  },
+  {
+    "romanji": "omoshiroi",
+    "hiragana": "おもしろい",
+    "katakana": "オモシロイ",
+    "translation": "interesting"
+  },
+  {
+    "romanji": "kawaii",
+    "hiragana": "かわいい",
+    "katakana": "カワイイ",
+    "translation": "cute"
+  },
+  {
+    "romanji": "atsui",
+    "hiragana": "あつい",
+    "katakana": "アツイ",
+    "translation": "hot"
+  },
+  {
+    "romanji": "samui",
+    "hiragana": "さむい",
+    "katakana": "サムイ",
+    "translation": "cold"
+  },
+  {
+    "romanji": "kowai",
+    "hiragana": "こわい",
+    "katakana": "コワイ",
+    "translation": "scary"
+  },
+  {
+    "romanji": "ureshii",
+    "hiragana": "うれしい",
+    "katakana": "ウレシイ",
+    "translation": "happy"
+  },
+  {
+    "romanji": "kanashii",
+    "hiragana": "かなしい",
+    "katakana": "カナシイ",
+    "translation": "sad"
+  },
+  {
+    "romanji": "benri",
+    "hiragana": "べんり",
+    "katakana": "ベンリ",
+    "translation": "convenient"
+  },
+  {
+    "romanji": "kantan",
+    "hiragana": "かんたん",
+    "katakana": "カンタン",
+    "translation": "easy"
+  },
+  {
+    "romanji": "muzukashii",
+    "hiragana": "むずかしい",
+    "katakana": "ムズカシイ",
+    "translation": "difficult"
+  },
+  {
+    "romanji": "yasashii",
+    "hiragana": "やさしい",
+    "katakana": "ヤサシイ",
+    "translation": "kind"
+  },
+  {
+    "romanji": "atarashii",
+    "hiragana": "あたらしい",
+    "katakana": "アタラシイ",
+    "translation": "new"
+  },
+  {
+    "romanji": "furui",
+    "hiragana": "ふるい",
+    "katakana": "フルイ",
+    "translation": "old"
+  },
+  {
+    "romanji": "takai",
+    "hiragana": "たかい",
+    "katakana": "タカイ",
+    "translation": "expensive"
+  },
+  {
+    "romanji": "yasui",
+    "hiragana": "やすい",
+    "katakana": "ヤスイ",
+    "translation": "cheap"
+  },
+  {
+    "romanji": "okii",
+    "hiragana": "おおきい",
+    "katakana": "オオキイ",
+    "translation": "big"
+  },
+  {
+    "romanji": "chiisai",
+    "hiragana": "ちいさい",
+    "katakana": "チイサイ",
+    "translation": "small"
+  },
+  {
+    "romanji": "oishii",
+    "hiragana": "おいしい",
+    "katakana": "オイシイ",
+    "translation": "delicious"
+  },
+  {
+    "romanji": "hitsuji",
+    "hiragana": "ひつじ",
+    "katakana": "ヒツジ",
+    "translation": "sheep"
+  },
+  {
+    "romanji": "nezumi",
+    "hiragana": "ねずみ",
+    "katakana": "ネズミ",
+    "translation": "mouse"
+  },
+  {
+    "romanji": "tori",
+    "hiragana": "とり",
+    "katakana": "トリ",
+    "translation": "bird"
+  },
+  {
+    "romanji": "tako",
+    "hiragana": "たこ",
+    "katakana": "タコ",
+    "translation": "octopus"
+  },
+  {
+    "romanji": "ika",
+    "hiragana": "いか",
+    "katakana": "イカ",
+    "translation": "squid"
+  },
+  {
+    "romanji": "kani",
+    "hiragana": "かに",
+    "katakana": "カニ",
+    "translation": "crab"
+  },
+  {
+    "romanji": "ebi",
+    "hiragana": "えび",
+    "katakana": "エビ",
+    "translation": "shrimp"
+  },
+  {
+    "romanji": "maguro",
+    "hiragana": "まぐろ",
+    "katakana": "マグロ",
+    "translation": "tuna"
+  },
+  {
+    "romanji": "uni",
+    "hiragana": "うに",
+    "katakana": "ウニ",
+    "translation": "sea urchin"
+  },
+  {
+    "romanji": "sake",
+    "hiragana": "さけ",
+    "katakana": "サケ",
+    "translation": "salmon"
+  },
+  {
+    "romanji": "tai",
+    "hiragana": "たい",
+    "katakana": "タイ",
+    "translation": "sea bream"
+  },
+  {
+    "romanji": "aji",
+    "hiragana": "あじ",
+    "katakana": "アジ",
+    "translation": "horse mackerel"
+  },
+  {
+    "romanji": "sanma",
+    "hiragana": "さんま",
+    "katakana": "サンマ",
+    "translation": "Pacific saury"
+  },
+  {
+    "romanji": "iwashi",
+    "hiragana": "いわし",
+    "katakana": "イワシ",
+    "translation": "sardine"
+  },
+  {
+    "romanji": "hotate",
+    "hiragana": "ほたて",
+    "katakana": "ホタテ",
+    "translation": "scallop"
+  },
+  {
+    "romanji": "ika",
+    "hiragana": "いか",
+    "katakana": "イカ",
+    "translation": "squid"
+  },
+  {
+    "romanji": "karei",
+    "hiragana": "かれい",
+    "katakana": "カレイ",
+    "translation": "flounder"
+  },
+  {
+    "romanji": "hokke",
+    "hiragana": "ほっけ",
+    "katakana": "ホッケ",
+    "translation": "Okhotsk Atka mackerel"
+  },
+  {
+    "romanji": "saba",
+    "hiragana": "さば",
+    "katakana": "サバ",
+    "translation": "mackerel"
+  },
+  {
+    "romanji": "hamachi",
+    "hiragana": "はまち",
+    "katakana": "ハマチ",
+    "translation": "yellowtail"
+  }
+]

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Japanese Character Quiz</title>
+    <link rel="stylesheet" href="quiz.css" />
+  </head>
+  <body>
+    <button onclick="location.href='../index.html'" class="homepage-button">
+      Homepage
+    </button>
+    <div class="container">
+      <h1>Japanese Character Quiz</h1>
+
+      <select id="quizType">
+        <option value="hiragana">Hiragana</option>
+        <option value="katakana">Katakana</option>
+      </select>
+      <select id="difficultyLevel">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+      <button onclick="startQuiz()">Start Quiz</button>
+      <div id="quizContainer" class="hidden">
+        <div id="japaneseCharacter" class="japanese-character"></div>
+        <input
+          type="text"
+          id="romajiInput"
+          placeholder="Type the Romaji..."
+          onkeypress="checkAnswer(event)"
+        />
+        <div id="resultMessage" class="result-message"></div>
+        <button onclick="revealAnswer()">Reveal Answer</button>
+        <button onclick="skipQuestion()">Skip Question</button>
+      </div>
+    </div>
+    <script src="quiz.js"></script>
+  </body>
+</html>
