@@ -44,7 +44,6 @@ function nextCharacter() {
 
 function checkAnswer() {
   const userInput = document.getElementById("romanjiInput").value;
-  console.log(userInput);
   if (userInput === currentCharacter.romaji) {
     document.getElementById("resultMessage").innerText = "Correct!";
     document.getElementById("resultMessage").classList.add("correct");
