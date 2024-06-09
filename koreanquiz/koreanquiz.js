@@ -37,25 +37,20 @@ function nextCharacter() {
   currentCharacter = characters[randomCharacter];
   document.getElementById("koreanCharacter").innerText =
     currentCharacter.hangul;
-  document.getElementById("romajiInput").value = "";
+  document.getElementById("romanjiInput").value = "";
   document.getElementById("resultMessage").innerText = "";
 }
 
-function checkAnswer(event) {
-  if (event.key === "Enter") {
-    const userInput = document
-      .getElementById("romajiInput")
-      .value.trim()
-      .toLowerCase();
-    if (userInput === currentCharacter.romaji) {
-      document.getElementById("resultMessage").innerText = "Correct!";
-      document.getElementById("resultMessage").classList.add("correct");
-      setTimeout(nextCharacter, 3000);
-    } else {
-      document.getElementById("resultMessage").innerText = "Try again!";
-      document.getElementById("resultMessage").classList.remove("correct");
-    }
-    event.preventDefault();
+function checkAnswer() {
+  const userInput = document.getElementById("romanjiInput").value;
+  console.log(userInput);
+  if (userInput === currentCharacter.romaji) {
+    document.getElementById("resultMessage").innerText = "Correct!";
+    document.getElementById("resultMessage").classList.add("correct");
+    setTimeout(nextCharacter, 3000);
+  } else {
+    document.getElementById("resultMessage").innerText = "Try again!";
+    document.getElementById("resultMessage").classList.remove("correct");
   }
 }
 
@@ -67,5 +62,3 @@ function revealAnswer() {
 function skipQuestion() {
   nextCharacter();
 }
-
-document.getElementById("romajiInput").addEventListener("keydown", checkAnswer);
