@@ -1,3 +1,5 @@
+const answerInput = document.getElementById("answer");
+
 document.addEventListener("DOMContentLoaded", function () {
   let currentQuestionIndex;
   let useHangul = true; // Default to Hangul
@@ -30,6 +32,11 @@ document.addEventListener("DOMContentLoaded", function () {
     document
       .getElementById("displayType")
       .addEventListener("change", toggleDisplay); // Change event listener for display type
+    answerInput.addEventListener("keypress", (event) => {
+      if (event.key === "Enter") {
+        checkAnswer();
+      }
+    });
   }
 
   function setRandomQuestionIndex() {
@@ -85,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function () {
       setTimeout(nextQuestion, 3000); // Move to the next question after 3 seconds
     } else {
       document.getElementById("result").textContent =
-        "Incorrect. Try again or skip to see the answer.";
+        "Incorrect. Try again, press reveal answer to see the answer or skip.";
     }
   }
 

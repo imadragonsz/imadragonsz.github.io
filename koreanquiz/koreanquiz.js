@@ -1,5 +1,6 @@
 let currentCharacter = {};
 let characters = [];
+const answerInput = document.getElementById("romanjiInput");
 
 document.addEventListener("DOMContentLoaded", function () {
   fetch("../words/hangul.json")
@@ -62,3 +63,9 @@ function revealAnswer() {
 function skipQuestion() {
   nextCharacter();
 }
+
+answerInput.addEventListener("keypress", function (event) {
+  if (event.key === "Enter") {
+    checkAnswer();
+  }
+});
