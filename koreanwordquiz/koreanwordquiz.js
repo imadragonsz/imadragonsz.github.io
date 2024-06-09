@@ -75,16 +75,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     let correctAnswer = "";
-    if (useHangul) {
-      correctAnswer = wordsArray[currentQuestionIndex].translation
-        ? wordsArray[currentQuestionIndex].translation.toLowerCase()
-        : wordsArray[currentQuestionIndex].hangul.toLowerCase();
-    } else {
-      correctAnswer = wordsArray[currentQuestionIndex].english
-        ? wordsArray[currentQuestionIndex].english.toLowerCase()
-        : wordsArray[currentQuestionIndex].romanji.toLowerCase();
-    }
-
+    correctAnswer = wordsArray[currentQuestionIndex].translation
+      .trim()
+      .toLowerCase();
     if (userAnswer === correctAnswer) {
       document.getElementById("result").textContent = "Correct!";
       disableButtons();
@@ -144,11 +137,9 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function showCorrectAnswer() {
-    const correctAnswer = useHangul
-      ? wordsArray[currentQuestionIndex].translation ||
-        wordsArray[currentQuestionIndex].hangul
-      : wordsArray[currentQuestionIndex].english ||
-        wordsArray[currentQuestionIndex].romanji;
+    const correctAnswer = wordsArray[currentQuestionIndex].translation
+      .trim()
+      .toLowerCase();
 
     // Display the correct answer
     document.getElementById("result").textContent =
