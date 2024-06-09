@@ -1,24 +1,14 @@
 fetch("../words/hangul explanation.json")
   .then((response) => response.json())
   .then((data) => {
-    const easyConsonants = document.getElementById("easyConsonants");
-    const mediumConsonants = document.getElementById("mediumConsonants");
-    const hardConsonants = document.getElementById("hardConsonants");
+    const Consonants = document.getElementById("Consonants");
     const vowels = document.getElementById("vowels");
     const syllables = document.getElementById("syllables");
     const commonWords = document.getElementById("commonWords");
     console.log(data);
 
-    data.easyConsonants.forEach((item) => {
-      easyConsonants.innerHTML += `<div class="hangul-row"><span class="hangul">${item.hangul}</span> (${item.romanji}) </div>`;
-    });
-
-    data.mediumConsonants.forEach((item) => {
-      mediumConsonants.innerHTML += `<div class="hangul-row"><span class="hangul">${item.hangul}</span> (${item.romanji}) </div>`;
-    });
-
-    data.hardConsonants.forEach((item) => {
-      hardConsonants.innerHTML += `<div class="hangul-row"><span class="hangul">${item.hangul}</span> (${item.romanji}) </div>`;
+    data.Consonants.forEach((item) => {
+      Consonants.innerHTML += `<div class="hangul-row"><span class="hangul">${item.hangul}</span> (${item.romanji}) </div>`;
     });
 
     data.vowels.forEach((item) => {
