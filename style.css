@@ -6,7 +6,9 @@ body {
   color: #ffffff; /* text color */
 }
 
-.container {
+.container,
+.japanese,
+.korean {
   width: 80%;
   margin: 100px auto;
   text-align: center;

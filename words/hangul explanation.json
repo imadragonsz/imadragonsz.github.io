@@ -1,0 +1,618 @@
+{
+  "easyConsonants": [
+    { "hangul": "ㅏ", "romanji": "a" },
+    { "hangul": "ㅑ", "romanji": "ya" },
+    { "hangul": "ㅓ", "romanji": "eo" },
+    { "hangul": "ㅕ", "romanji": "yeo" },
+    { "hangul": "ㅗ", "romanji": "o" },
+    { "hangul": "ㅛ", "romanji": "yo" },
+    { "hangul": "ㅜ", "romanji": "u" },
+    { "hangul": "ㅠ", "romanji": "yu" },
+    { "hangul": "ㅡ", "romanji": "eu" },
+    { "hangul": "ㅣ", "romanji": "i" }
+  ],
+  "mediumConsonants": [
+    { "hangul": "ㄱ", "romanji": "g" },
+    { "hangul": "ㄴ", "romanji": "n" },
+    { "hangul": "ㄷ", "romanji": "d" },
+    { "hangul": "ㄹ", "romanji": "r" },
+    { "hangul": "ㅁ", "romanji": "m" },
+    { "hangul": "ㅂ", "romanji": "b" },
+    { "hangul": "ㅅ", "romanji": "s" },
+    { "hangul": "ㅇ", "romanji": "ng" },
+    { "hangul": "ㅈ", "romanji": "j" },
+    { "hangul": "ㅊ", "romanji": "ch" },
+    { "hangul": "ㅋ", "romanji": "k" },
+    { "hangul": "ㅌ", "romanji": "t" },
+    { "hangul": "ㅍ", "romanji": "p" },
+    { "hangul": "ㅎ", "romanji": "h" },
+    { "hangul": "ㄲ", "romanji": "kk" },
+    { "hangul": "ㄸ", "romanji": "tt" },
+    { "hangul": "ㅃ", "romanji": "pp" },
+    { "hangul": "ㅆ", "romanji": "ss" },
+    { "hangul": "ㅉ", "romanji": "jj" }
+  ],
+  "hardConsonants": [
+    { "hangul": "가", "romanji": "ga" },
+    { "hangul": "나", "romanji": "na" },
+    { "hangul": "다", "romanji": "da" },
+    { "hangul": "라", "romanji": "ra" },
+    { "hangul": "마", "romanji": "ma" },
+    { "hangul": "바", "romanji": "ba" },
+    { "hangul": "사", "romanji": "sa" },
+    { "hangul": "아", "romanji": "a" },
+    { "hangul": "자", "romanji": "ja" },
+    { "hangul": "차", "romanji": "cha" },
+    { "hangul": "카", "romanji": "ka" },
+    { "hangul": "타", "romanji": "ta" },
+    { "hangul": "파", "romanji": "pa" },
+    { "hangul": "하", "romanji": "ha" },
+    { "hangul": "각", "romanji": "gak" },
+    { "hangul": "낙", "romanji": "nak" },
+    { "hangul": "닥", "romanji": "dak" },
+    { "hangul": "락", "romanji": "rak" },
+    { "hangul": "막", "romanji": "mak" },
+    { "hangul": "박", "romanji": "bak" },
+    { "hangul": "삭", "romanji": "sak" },
+    { "hangul": "악", "romanji": "ak" },
+    { "hangul": "작", "romanji": "jak" },
+    { "hangul": "착", "romanji": "chak" },
+    { "hangul": "칵", "romanji": "kak" },
+    { "hangul": "탁", "romanji": "tak" },
+    { "hangul": "팍", "romanji": "pak" },
+    { "hangul": "학", "romanji": "hak" },
+    { "hangul": "간", "romanji": "gan" },
+    { "hangul": "난", "romanji": "nan" },
+    { "hangul": "단", "romanji": "dan" },
+    { "hangul": "란", "romanji": "ran" },
+    { "hangul": "만", "romanji": "man" },
+    { "hangul": "반", "romanji": "ban" },
+    { "hangul": "산", "romanji": "san" },
+    { "hangul": "안", "romanji": "an" },
+    { "hangul": "잔", "romanji": "jan" },
+    { "hangul": "찬", "romanji": "chan" },
+    { "hangul": "칸", "romanji": "kan" },
+    { "hangul": "탄", "romanji": "tan" },
+    { "hangul": "판", "romanji": "pan" },
+    { "hangul": "한", "romanji": "han" }
+  ],
+  "vowels": [
+    { "hangul": "ㅏ", "romanji": "a" },
+    { "hangul": "ㅑ", "romanji": "ya" },
+    { "hangul": "ㅓ", "romanji": "eo" },
+    { "hangul": "ㅕ", "romanji": "yeo" },
+    { "hangul": "ㅗ", "romanji": "o" },
+    { "hangul": "ㅛ", "romanji": "yo" },
+    { "hangul": "ㅜ", "romanji": "u" },
+    { "hangul": "ㅠ", "romanji": "yu" },
+    { "hangul": "ㅡ", "romanji": "eu" },
+    { "hangul": "ㅣ", "romanji": "i" }
+  ],
+  "syllables": [
+    { "hangul": "가", "romanji": "ga" },
+    { "hangul": "나", "romanji": "na" },
+    { "hangul": "다", "romanji": "da" },
+    { "hangul": "라", "romanji": "ra" },
+    { "hangul": "마", "romanji": "ma" },
+    { "hangul": "바", "romanji": "ba" },
+    { "hangul": "사", "romanji": "sa" },
+    { "hangul": "아", "romanji": "a" },
+    { "hangul": "자", "romanji": "ja" },
+    { "hangul": "차", "romanji": "cha" },
+    { "hangul": "카", "romanji": "ka" },
+    { "hangul": "타", "romanji": "ta" },
+    { "hangul": "파", "romanji": "pa" },
+    { "hangul": "하", "romanji": "ha" },
+    { "hangul": "각", "romanji": "gak" },
+    { "hangul": "낙", "romanji": "nak" },
+    { "hangul": "닥", "romanji": "dak" },
+    { "hangul": "락", "romanji": "rak" },
+    { "hangul": "막", "romanji": "mak" },
+    { "hangul": "박", "romanji": "bak" },
+    { "hangul": "삭", "romanji": "sak" },
+    { "hangul": "악", "romanji": "ak" },
+    { "hangul": "작", "romanji": "jak" },
+    { "hangul": "착", "romanji": "chak" },
+    { "hangul": "칵", "romanji": "kak" },
+    { "hangul": "탁", "romanji": "tak" },
+    { "hangul": "팍", "romanji": "pak" },
+    { "hangul": "학", "romanji": "hak" },
+    { "hangul": "간", "romanji": "gan" },
+    { "hangul": "난", "romanji": "nan" },
+    { "hangul": "단", "romanji": "dan" },
+    { "hangul": "란", "romanji": "ran" },
+    { "hangul": "만", "romanji": "man" },
+    { "hangul": "반", "romanji": "ban" },
+    { "hangul": "산", "romanji": "san" },
+    { "hangul": "안", "romanji": "an" },
+    { "hangul": "잔", "romanji": "jan" },
+    { "hangul": "찬", "romanji": "chan" },
+    { "hangul": "칸", "romanji": "kan" },
+    { "hangul": "탄", "romanji": "tan" },
+    { "hangul": "판", "romanji": "pan" },
+    { "hangul": "한", "romanji": "han" }
+  ],
+  "commonWords": [
+    {
+      "hangul": "안녕하세요",
+      "romanji": "annyeonghaseyo",
+      "translation": "hello"
+    },
+    { "hangul": "사랑", "romanji": "sarang", "translation": "love" },
+    {
+      "hangul": "감사합니다",
+      "romanji": "gamsahamnida",
+      "translation": "thank you"
+    },
+    {
+      "hangul": "미안합니다",
+      "romanji": "mianhamnida",
+      "translation": "I'm sorry"
+    },
+    { "hangul": "좋아요", "romanji": "joayo", "translation": "I like it" },
+    {
+      "hangul": "싫어요",
+      "romanji": "silheoyo",
+      "translation": "I don't like it"
+    },
+    { "hangul": "고마워요", "romanji": "gomawoyo", "translation": "thank you" },
+    {
+      "hangul": "미안해요",
+      "romanji": "mianhaeyo",
+      "translation": "I'm sorry"
+    },
+    { "hangul": "미안해", "romanji": "mianhae", "translation": "I'm sorry" },
+    { "hangul": "잘자요", "romanji": "jaljayo", "translation": "good night" },
+    { "hangul": "안녕", "romanji": "annyeong", "translation": "hi/bye" },
+    { "hangul": "고마워", "romanji": "gomawo", "translation": "thank you" },
+    {
+      "hangul": "괜찮아요",
+      "romanji": "gwaenchanayo",
+      "translation": "it's okay"
+    },
+    { "hangul": "사랑해", "romanji": "saranghae", "translation": "I love you" },
+    { "hangul": "잘자", "romanji": "jalja", "translation": "good night" },
+    { "hangul": "네", "romanji": "ne", "translation": "yes" },
+    { "hangul": "아니요", "romanji": "aniyo", "translation": "no" },
+    {
+      "hangul": "알았어요",
+      "romanji": "alasseoyo",
+      "translation": "I understand"
+    },
+    {
+      "hangul": "실례합니다",
+      "romanji": "sillyehamnida",
+      "translation": "excuse me"
+    },
+    { "hangul": "화이팅", "romanji": "hwaiting", "translation": "fighting" },
+    {
+      "hangul": "미안해요",
+      "romanji": "mianhaeyo",
+      "translation": "I'm sorry"
+    },
+    { "hangul": "건배", "romanji": "geonbae", "translation": "cheers" },
+    {
+      "hangul": "안녕히 계세요",
+      "romanji": "annyeonghi gyeseyo",
+      "translation": "goodbye"
+    },
+    {
+      "hangul": "안녕히 가세요",
+      "romanji": "annyeonghi gaseyo",
+      "translation": "goodbye"
+    },
+    {
+      "hangul": "어떻게 지내세요?",
+      "romanji": "eotteoke jinaeseyo?",
+      "translation": "how are you?"
+    },
+    {
+      "hangul": "내일 봐요",
+      "romanji": "naeil bwayo",
+      "translation": "see you tomorrow"
+    },
+    {
+      "hangul": "오늘 봐요",
+      "romanji": "oneul bwayo",
+      "translation": "see you today"
+    },
+    { "hangul": "화이팅", "romanji": "hwaiting", "translation": "fighting" },
+    {
+      "hangul": "잘 먹겠습니다",
+      "romanji": "jal meokkesseumnida",
+      "translation": "I will eat well"
+    },
+    {
+      "hangul": "잘 먹었습니다",
+      "romanji": "jal meogeosseumnida",
+      "translation": "I ate well"
+    },
+    {
+      "hangul": "잘 가요",
+      "romanji": "jal gayo",
+      "translation": "goodbye"
+    },
+    {
+      "hangul": "잘 왔어요",
+      "romanji": "jal wasseoyo",
+      "translation": "welcome"
+    },
+    {
+      "hangul": "조심하세요",
+      "romanji": "josimhaseyo",
+      "translation": "take care"
+    },
+    {
+      "hangul": "축하해요",
+      "romanji": "chukahae",
+      "translation": "congratulations"
+    },
+    {
+      "hangul": "실례합니다",
+      "romanji": "sillyehamnida",
+      "translation": "excuse me"
+    },
+    {
+      "hangul": "네, 안녕하세요",
+      "romanji": "ne, annyeonghaseyo",
+      "translation": "yes, hello"
+    },
+    {
+      "hangul": "아니요, 안녕하세요",
+      "romanji": "aniyo, annyeonghaseyo",
+      "translation": "no, hello"
+    },
+    {
+      "hangul": "네, 안녕히 계세요",
+      "romanji": "ne, annyeonghi gyeseyo",
+      "translation": "yes, goodbye"
+    },
+    {
+      "hangul": "아니요, 안녕히 계세요",
+      "romanji": "aniyo, annyeonghi gyeseyo",
+      "translation": "no, goodbye"
+    },
+    {
+      "hangul": "네, 안녕히 가세요",
+      "romanji": "ne, annyeonghi gaseyo",
+      "translation": "yes, goodbye"
+    },
+    {
+      "hangul": "아니요, 안녕히 가세요",
+      "romanji": "aniyo, annyeonghi gaseyo",
+      "translation": "no, goodbye"
+    },
+    {
+      "hangul": "네, 잘 먹겠습니다",
+      "romanji": "ne, jal meokkesseumnida",
+      "translation": "yes, I will eat well"
+    },
+    {
+      "hangul": "아니요, 잘 먹겠습니다",
+      "romanji": "aniyo, jal meokkesseumnida",
+      "translation": "no, I will eat well"
+    },
+    {
+      "hangul": "네, 잘 먹겠습니다",
+      "romanji": "ne, jal meokkesseumnida",
+      "translation": "yes, I will eat well"
+    },
+    {
+      "hangul": "아니요, 잘 먹겠습니다",
+      "romanji": "aniyo, jal meokkesseumnida",
+      "translation": "no, I will eat well"
+    },
+    {
+      "hangul": "네, 잘 먹었습니다",
+      "romanji": "ne, jal meogeosseumnida",
+      "translation": "yes, I ate well"
+    },
+    {
+      "hangul": "아니요, 잘 먹었습니다",
+      "romanji": "aniyo, jal meogeosseumnida",
+      "translation": "no, I ate well"
+    },
+    {
+      "hangul": "네, 잘 가요",
+      "romanji": "ne, jal gayo",
+      "translation": "yes, goodbye"
+    },
+    {
+      "hangul": "아니요, 잘 가요",
+      "romanji": "aniyo, jal gayo",
+      "translation": "no, goodbye"
+    },
+    {
+      "hangul": "네, 잘 왔어요",
+      "romanji": "ne, jal wasseoyo",
+      "translation": "yes, welcome"
+    },
+    {
+      "hangul": "아니요, 잘 왔어요",
+      "romanji": "aniyo, jal wasseoyo",
+      "translation": "no, welcome"
+    },
+    {
+      "hangul": "네, 조심하세요",
+      "romanji": "ne, josimhaseyo",
+      "translation": "yes, take care"
+    },
+    {
+      "hangul": "아니요, 조심하세요",
+      "romanji": "aniyo, josimhaseyo",
+      "translation": "no, take care"
+    },
+    {
+      "hangul": "네, 축하해요",
+      "romanji": "ne, chukahae",
+      "translation": "yes, congratulations"
+    },
+    {
+      "hangul": "아니요, 축하해요",
+      "romanji": "aniyo, chukahae",
+      "translation": "no, congratulations"
+    },
+    {
+      "hangul": "네, 실례합니다",
+      "romanji": "ne, sillyehamnida",
+      "translation": "yes, excuse me"
+    },
+    {
+      "hangul": "아니요, 실례합니다",
+      "romanji": "aniyo, sillyehamnida",
+      "translation": "no, excuse me"
+    },
+    {
+      "hangul": "네, 화이팅",
+      "romanji": "ne, hwaiting",
+      "translation": "yes, fighting"
+    },
+    {
+      "hangul": "아니요, 화이팅",
+      "romanji": "aniyo, hwaiting",
+      "translation": "no, fighting"
+    }
+  ],
+  "kpopWords": [
+    { "hangul": "아이돌", "romanji": "aidol", "translation": "Idol" },
+    { "hangul": "데뷔", "romanji": "debyu", "translation": "Debut" },
+    { "hangul": "컴백", "romanji": "keombaek", "translation": "Comeback" },
+    { "hangul": "음악", "romanji": "eumak", "translation": "Music" },
+    { "hangul": "앨범", "romanji": "aelbeom", "translation": "Album" },
+    { "hangul": "팬덤", "romanji": "paendeom", "translation": "Fandom" },
+    { "hangul": "콘서트", "romanji": "konseoteu", "translation": "Concert" },
+    { "hangul": "솔로", "romanji": "sollo", "translation": "Solo" },
+    { "hangul": "뮤비", "romanji": "myubi", "translation": "Music Video" },
+    { "hangul": "멤버", "romanji": "membeo", "translation": "Member" },
+    { "hangul": "무대", "romanji": "mudae", "translation": "Stage" },
+    { "hangul": "연습", "romanji": "yeonseup", "translation": "Practice" },
+    { "hangul": "그룹", "romanji": "geurup", "translation": "Group" },
+    { "hangul": "컨셉", "romanji": "keonseb", "translation": "Concept" },
+    { "hangul": "상금", "romanji": "sanggeum", "translation": "Prize" },
+    { "hangul": "신곡", "romanji": "singok", "translation": "New Song" },
+    { "hangul": "머리카락", "romanji": "meorikarak", "translation": "Hair" },
+    { "hangul": "스타일", "romanji": "seutail", "translation": "Style" },
+    {
+      "hangul": "타이틀곡",
+      "romanji": "taiteul gok",
+      "translation": "Title Track"
+    },
+    {
+      "hangul": "코어그래퍼",
+      "romanji": "ko-eu geuraepeo",
+      "translation": "Choreographer"
+    },
+    { "hangul": "랩", "romanji": "raep", "translation": "Rap" },
+    { "hangul": "리더", "romanji": "rideo", "translation": "Leader" },
+    { "hangul": "커버", "romanji": "keobeo", "translation": "Cover" },
+    { "hangul": "애", "romanji": "ae", "translation": "Love" },
+    { "hangul": "가사", "romanji": "gasa", "translation": "Lyrics" },
+    {
+      "hangul": "퍼포먼스",
+      "romanji": "peopeomenseu",
+      "translation": "Performance"
+    },
+    { "hangul": "파트", "romanji": "pateu", "translation": "Part" },
+    {
+      "hangul": "팬싸인회",
+      "romanji": "paenssainhoe",
+      "translation": "Fan Signing Event"
+    },
+    { "hangul": "팔로우", "romanji": "palrou", "translation": "Follow" },
+    { "hangul": "힙합", "romanji": "hiphap", "translation": "Hip-hop" },
+    { "hangul": "디비", "romanji": "dibi", "translation": "DB" },
+    { "hangul": "올해", "romanji": "olhae", "translation": "This Year" },
+    { "hangul": "인기", "romanji": "inki", "translation": "Popularity" },
+    { "hangul": "곡", "romanji": "gok", "translation": "Song" },
+    {
+      "hangul": "저스틴비버",
+      "romanji": "jeoseutinbibeo",
+      "translation": "Justin Bieber"
+    },
+    { "hangul": "아이유", "romanji": "aiyu", "translation": "IU" },
+    { "hangul": "스키즈", "romanji": "seukijeu", "translation": "Stray Kids" },
+    { "hangul": "에이티즈", "romanji": "eitijeu", "translation": "ATEEZ" },
+    { "hangul": "에스파", "romanji": "aeseupa", "translation": "aespa" },
+    { "hangul": "아스트로", "romanji": "aseuteuro", "translation": "ASTRO" },
+    {
+      "hangul": "에스에프나인",
+      "romanji": "eseupeunain",
+      "translation": "SF9"
+    },
+    {
+      "hangul": "몬스타엑스",
+      "romanji": "monseutaegseu",
+      "translation": "MONSTA X"
+    },
+    { "hangul": "트와이스", "romanji": "teuwaiseu", "translation": "TWICE" },
+    {
+      "hangul": "블랙핑크",
+      "romanji": "beullaekpingkeu",
+      "translation": "BLACKPINK"
+    },
+    { "hangul": "비투비", "romanji": "bitubi", "translation": "BTOB" },
+    { "hangul": "엑소", "romanji": "ekso", "translation": "EXO" },
+    {
+      "hangul": "방탄소년단",
+      "romanji": "bangtansonyeondan",
+      "translation": "BTS"
+    },
+    { "hangul": "엔시티", "romanji": "ensiti", "translation": "NCT" },
+    {
+      "hangul": "레드벨벳",
+      "romanji": "redeubelbet",
+      "translation": "Red Velvet"
+    },
+    { "hangul": "세븐틴", "romanji": "sebeuntin", "translation": "SEVENTEEN" },
+    { "hangul": "뉴이스트", "romanji": "nyuiseuteu", "translation": "NU'EST" },
+    { "hangul": "갓세븐", "romanji": "gatsebeun", "translation": "GOT7" },
+    { "hangul": "몬베베", "romanji": "monbebe", "translation": "MONBEBE" },
+    { "hangul": "캐럿", "romanji": "kaereot", "translation": "CARAT" },
+    {
+      "hangul": "인스피릿",
+      "romanji": "inseupirit",
+      "translation": "INSPIRIT"
+    },
+    {
+      "hangul": "캐슬라잇",
+      "romanji": "kaeseullait",
+      "translation": "KEYSLIGHT"
+    },
+    { "hangul": "이스티", "romanji": "iseuti", "translation": "iSTAR" },
+    { "hangul": "영원", "romanji": "yeongwon", "translation": "Forever" },
+    { "hangul": "별", "romanji": "byeol", "translation": "Star" },
+    { "hangul": "춤", "romanji": "chum", "translation": "Dance" },
+    { "hangul": "모델", "romanji": "model", "translation": "Model" },
+    { "hangul": "드라마", "romanji": "deurama", "translation": "Drama" },
+    { "hangul": "사랑해", "romanji": "saranghae", "translation": "I Love You" },
+    {
+      "hangul": "감사합니다",
+      "romanji": "gamsahamnida",
+      "translation": "Thank You"
+    },
+    { "hangul": "음악가", "romanji": "eumakga", "translation": "Musician" },
+    { "hangul": "최고", "romanji": "choego", "translation": "Best" },
+    { "hangul": "신", "romanji": "sin", "translation": "New" },
+    { "hangul": "매력", "romanji": "maeryeog", "translation": "Charm" },
+    {
+      "hangul": "변신",
+      "romanji": "byeonsin",
+      "translation": "Transformation"
+    },
+    {
+      "hangul": "아름다운",
+      "romanji": "areumdaun",
+      "translation": "Beautiful"
+    },
+    { "hangul": "대세", "romanji": "daese", "translation": "Trend" },
+    { "hangul": "편집", "romanji": "pyeonjib", "translation": "Edit" },
+    {
+      "hangul": "상상력",
+      "romanji": "sangsangryeok",
+      "translation": "Imagination"
+    },
+    { "hangul": "소년", "romanji": "sonyeon", "translation": "Boy" },
+    { "hangul": "소녀", "romanji": "sonyeo", "translation": "Girl" },
+    {
+      "hangul": "사랑스러운",
+      "romanji": "sarangseureoun",
+      "translation": "Lovely"
+    },
+    { "hangul": "가요", "romanji": "gayo", "translation": "Song" },
+    { "hangul": "막내", "romanji": "maknae", "translation": "Youngest member" },
+    {
+      "hangul": "언니",
+      "romanji": "eonni",
+      "translation": "Older sister"
+    },
+    {
+      "hangul": "누나",
+      "romanji": "nuna",
+      "translation": "Older sister"
+    },
+    {
+      "hangul": "형",
+      "romanji": "hyeong",
+      "translation": "Older brother"
+    },
+    {
+      "hangul": "오빠",
+      "romanji": "oppa",
+      "translation": "Older brother"
+    },
+    {
+      "hangul": "선배",
+      "romanji": "seonbae",
+      "translation": "Senior"
+    },
+    {
+      "hangul": "후배",
+      "romanji": "hubae",
+      "translation": "Junior"
+    },
+    { "hangul": "팬", "romanji": "paen", "translation": "Fan" },
+    { "hangul": "컨셉", "romanji": "keonseb", "translation": "Concept" },
+    { "hangul": "머리카락", "romanji": "meorikarak", "translation": "Hair" },
+    { "hangul": "스타일", "romanji": "seutail", "translation": "Style" },
+    { "hangul": "무대", "romanji": "mudae", "translation": "Stage" },
+    { "hangul": "수상", "romanji": "susang", "translation": "Award" },
+    { "hangul": "랩", "romanji": "raep", "translation": "Rap" },
+    { "hangul": "노래", "romanji": "nolae", "translation": "Song" },
+    { "hangul": "사인", "romanji": "sain", "translation": "Autograph" },
+    {
+      "hangul": "팬싸인회",
+      "romanji": "paenssainhoe",
+      "translation": "FanSigning Event"
+    },
+    { "hangul": "인터뷰", "romanji": "inteobyu", "translation": "Interview" },
+    { "hangul": "매니저", "romanji": "maenijeo", "translation": "Manager" },
+    {
+      "hangul": "음악 방송",
+      "romanji": "eumag bangsong",
+      "translation": "Music show"
+    },
+    {
+      "hangul": "하이터치",
+      "romanji": "haiteitci",
+      "translation": "High touch event"
+    },
+    { "hangul": "악세사리", "romanji": "aksesari", "translation": "Accessory" },
+    { "hangul": "상자", "romanji": "sangja", "translation": "Box" },
+    {
+      "hangul": "사랑의 메시지",
+      "romanji": "sarangui mesiji",
+      "translation": "Message of love"
+    },
+    { "hangul": "표정", "romanji": "pyojeong", "translation": "Expression" },
+    {
+      "hangul": "애교",
+      "romanji": "aegyo",
+      "translation": "Cuteness/Acting cute"
+    },
+    { "hangul": "비주얼", "romanji": "bijueol", "translation": "Visual" },
+    { "hangul": "팬카페", "romanji": "paenkafe", "translation": "Fan cafe" },
+    { "hangul": "해시태그", "romanji": "haesitaeg", "translation": "Hashtag" },
+    {
+      "hangul": "숨겨진 무대",
+      "romanji": "sumgyeojin mudae",
+      "translation": "Hidden stage"
+    },
+    { "hangul": "미디어", "romanji": "midieo", "translation": "Media" },
+    {
+      "hangul": "사전 투표",
+      "romanji": "sajeon tupyo",
+      "translation": "Pre-vote"
+    },
+    { "hangul": "글로벌", "romanji": "geulrobeol", "translation": "Global" },
+    { "hangul": "모델", "romanji": "model", "translation": "Model" },
+    { "hangul": "뮤비", "romanji": "myubi", "translation": "Music video" },
+    { "hangul": "오디션", "romanji": "odisyeon", "translation": "Audition" },
+    { "hangul": "신곡", "romanji": "singok", "translation": "New song" },
+    {
+      "hangul": "퍼포먼스",
+      "romanji": "peopomeonseu",
+      "translation": "Performance"
+    },
+    { "hangul": "차트", "romanji": "chateu", "translation": "Chart" }
+  ]
+}

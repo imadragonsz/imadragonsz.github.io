@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #202020;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #333333;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+}
+
+.hangul-row {
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.homepage-button {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+p {
+  margin: 1em 0;
+}
+
+.example {
+  background-color: #333333;
+  padding: 10px;
+  border-left: 4px solid #007bff;
+  margin: 1em auto; /* Center the examples */
+  max-width: 80%; /* Limit maximum width */
+}
+
+.hangul {
+  font-size: 1.2em;
+  color: #d9534f;
+}
+
+select,
+button,
+input {
+  margin: 5px auto;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #666666; /* slightly lighter border */
+  border-radius: 4px;
+  background-color: #333333; /* darker background */
+  color: #ffffff; /* text color */
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:focus {
+  outline: none;
+  border-color: #66afe9;
+  box-shadow: 0 0 5px #66afe9;
+}

@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #202020;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 800px; /* Increased width */
+  margin: 100px auto; /* Centering the container */
+  padding: 20px;
+  background-color: #333333;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+}
+
+.homepage-button {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+select,
+button,
+input {
+  margin: 5px auto;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #666666;
+  border-radius: 4px;
+  background-color: #333333;
+  color: #ffffff;
+}
+
+select:focus,
+button:focus,
+input:focus {
+  outline: none;
+  border-color: #66afe9;
+  box-shadow: 0 0 5px #66afe9;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#quizContainer {
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+#koreanCharacter {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+#resultMessage {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.correct {
+  color: #00ff00;
+}

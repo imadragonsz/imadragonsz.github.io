@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Korean Vocabulary Quiz</title>
+    <link rel="stylesheet" href="koreanwordquiz.css" />
+  </head>
+  <body>
+    <button onclick="location.href='../index.html'" class="homepage-button">
+      Homepage
+    </button>
+    <div class="container">
+      <h1>Korean Vocabulary Quiz</h1>
+      <div id="language-container">
+        <label for="displayType">Display Type:</label>
+        <select id="displayType">
+          <option value="romanji">Romanji</option>
+          <option value="hangul">Hangul</option>
+        </select>
+        <label for="format">Choose Words Type:</label>
+        <select id="format">
+          <option value="commonWords">Common Words</option>
+          <option value="kpopWords">Kpop Words</option>
+        </select>
+      </div>
+      <div id="quiz-container">
+        <div id="question-container">
+          <p id="question"></p>
+        </div>
+        <div id="answer-container">
+          <label for="answer">Your Answer:</label>
+          <input type="text" id="answer" autocomplete="off" />
+          <button id="checkBtn">Submit</button>
+          <button id="revealBtn">Reveal Answer</button>
+          <!-- New button to reveal the correct answer -->
+          <button id="skipBtn">Skip</button>
+          <!-- New button to skip the current word -->
+        </div>
+        <p id="result"></p>
+      </div>
+    </div>
+    <script src="koreanwordquiz.js"></script>
+  </body>
+</html>
