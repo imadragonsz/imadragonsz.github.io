@@ -69,7 +69,6 @@ answerInput.addEventListener("keypress", function (event) {
     checkAnswer();
   }
 });
-setTimeout(nextQuestion, 3000);
 
 // Event listeners
 checkBtn.addEventListener("click", checkAnswer);
