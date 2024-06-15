@@ -358,5 +358,401 @@
     "hiragana": "きく",
     "katakana": "キク",
     "translation": "chrysanthemum"
+  },
+  {
+    "romanji": "tabemono",
+    "hiragana": "たべもの",
+    "katakana": "タベモノ",
+    "translation": "food"
+  },
+  {
+    "romanji": "fuku",
+    "hiragana": "ふく",
+    "katakana": "フク",
+    "translation": "clothes"
+  },
+  {
+    "romanji": "kaimono",
+    "hiragana": "かいもの",
+    "katakana": "カイモノ",
+    "translation": "shopping"
+  },
+  {
+    "romanji": "denwa",
+    "hiragana": "でんわ",
+    "katakana": "デンワ",
+    "translation": "telephone"
+  },
+  {
+    "romanji": "kēki",
+    "hiragana": "けーき",
+    "katakana": "ケーキ",
+    "translation": "cake"
+  },
+  {
+    "romanji": "ryokou",
+    "hiragana": "りょこう",
+    "katakana": "リョコウ",
+    "translation": "travel"
+  },
+  {
+    "romanji": "basu",
+    "hiragana": "ばす",
+    "katakana": "バス",
+    "translation": "bus"
+  },
+  {
+    "romanji": "tetsudai",
+    "hiragana": "てつだい",
+    "katakana": "テツダイ",
+    "translation": "help"
+  },
+  {
+    "romanji": "anshin",
+    "hiragana": "あんしん",
+    "katakana": "アンシン",
+    "translation": "relief"
+  },
+  {
+    "romanji": "shigoto",
+    "hiragana": "しごと",
+    "katakana": "シゴト",
+    "translation": "work"
+  },
+  {
+    "romanji": "michi",
+    "hiragana": "みち",
+    "katakana": "ミチ",
+    "translation": "road"
+  },
+  {
+    "romanji": "kiken",
+    "hiragana": "きけん",
+    "katakana": "キケン",
+    "translation": "danger"
+  },
+  {
+    "romanji": "tebukuro",
+    "hiragana": "てぶくろ",
+    "katakana": "テブクロ",
+    "translation": "gloves"
+  },
+  {
+    "romanji": "ginkou",
+    "hiragana": "ぎんこう",
+    "katakana": "ギンコウ",
+    "translation": "bank"
+  },
+  {
+    "romanji": "shukudai",
+    "hiragana": "しゅくだい",
+    "katakana": "シュクダイ",
+    "translation": "homework"
+  },
+  {
+    "romanji": "natsu",
+    "hiragana": "なつ",
+    "katakana": "ナツ",
+    "translation": "summer"
+  },
+  {
+    "romanji": "fuyu",
+    "hiragana": "ふゆ",
+    "katakana": "フユ",
+    "translation": "winter"
+  },
+  {
+    "romanji": "ame",
+    "hiragana": "あめ",
+    "katakana": "アメ",
+    "translation": "candy"
+  },
+  {
+    "romanji": "zasshi",
+    "hiragana": "ざっし",
+    "katakana": "ザッシ",
+    "translation": "magazine"
+  },
+  {
+    "romanji": "gakkari",
+    "hiragana": "がっかり",
+    "katakana": "ガッカリ",
+    "translation": "disappointment"
+  },
+  {
+    "romanji": "kao",
+    "hiragana": "かお",
+    "katakana": "カオ",
+    "translation": "face"
+  },
+  {
+    "romanji": "ongaku",
+    "hiragana": "おんがく",
+    "katakana": "オンガク",
+    "translation": "music"
+  },
+  {
+    "romanji": "hoteru",
+    "hiragana": "ほてる",
+    "katakana": "ホテル",
+    "translation": "hotel"
+  },
+  {
+    "romanji": "kaiwa",
+    "hiragana": "かいわ",
+    "katakana": "カイワ",
+    "translation": "conversation"
+  },
+  {
+    "romanji": "senshu",
+    "hiragana": "せんしゅ",
+    "katakana": "センシュ",
+    "translation": "athlete"
+  },
+  {
+    "romanji": "shashin",
+    "hiragana": "しゃしん",
+    "katakana": "シャシン",
+    "translation": "photograph"
+  },
+  {
+    "romanji": "oyogu",
+    "hiragana": "およぐ",
+    "katakana": "オヨグ",
+    "translation": "swim"
+  },
+  {
+    "romanji": "doubutsu",
+    "hiragana": "どうぶつ",
+    "katakana": "ドウブツ",
+    "translation": "animal"
+  },
+  {
+    "romanji": "fune",
+    "hiragana": "ふね",
+    "katakana": "フネ",
+    "translation": "boat"
+  },
+  {
+    "romanji": "kurasu",
+    "hiragana": "くらす",
+    "katakana": "クラス",
+    "translation": "class"
+  },
+  {
+    "romanji": "ryouri",
+    "hiragana": "りょうり",
+    "katakana": "リョウリ",
+    "translation": "cooking"
+  },
+  {
+    "romanji": "mondai",
+    "hiragana": "もんだい",
+    "katakana": "モンダイ",
+    "translation": "problem"
+  },
+  {
+    "romanji": "kagi",
+    "hiragana": "かぎ",
+    "katakana": "カギ",
+    "translation": "key"
+  },
+  {
+    "romanji": "hikouki",
+    "hiragana": "ひこうき",
+    "katakana": "ヒコウキ",
+    "translation": "airplane"
+  },
+  {
+    "romanji": "denki",
+    "hiragana": "でんき",
+    "katakana": "デンキ",
+    "translation": "electricity"
+  },
+  {
+    "romanji": "juusho",
+    "hiragana": "じゅうしょ",
+    "katakana": "ジュウショ",
+    "translation": "address"
+  },
+  {
+    "romanji": "kutsu",
+    "hiragana": "くつ",
+    "katakana": "クツ",
+    "translation": "shoes"
+  },
+  {
+    "romanji": "ryokan",
+    "hiragana": "りょかん",
+    "katakana": "リョカン",
+    "translation": "Japanese inn"
+  },
+  {
+    "romanji": "uchi",
+    "hiragana": "うち",
+    "katakana": "ウチ",
+    "translation": "home"
+  },
+  {
+    "romanji": "dokusho",
+    "hiragana": "どくしょ",
+    "katakana": "ドクショ",
+    "translation": "reading"
+  },
+  {
+    "romanji": "daigaku",
+    "hiragana": "だいがく",
+    "katakana": "ダイガク",
+    "translation": "university"
+  },
+  {
+    "romanji": "zoo",
+    "hiragana": "ずう",
+    "katakana": "ズウ",
+    "translation": "zoo"
+  },
+  {
+    "romanji": "noumin",
+    "hiragana": "のうみん",
+    "katakana": "ノウミン",
+    "translation": "farmer"
+  },
+  {
+    "romanji": "kaji",
+    "hiragana": "かじ",
+    "katakana": "カジ",
+    "translation": "fire"
+  },
+  {
+    "romanji": "doubutsuen",
+    "hiragana": "どうぶつえん",
+    "katakana": "ドウブツエン",
+    "translation": "zoo"
+  },
+  {
+    "romanji": "senaka",
+    "hiragana": "せなか",
+    "katakana": "セナカ",
+    "translation": "back"
+  },
+  {
+    "romanji": "jiyu",
+    "hiragana": "じゆう",
+    "katakana": "ジユウ",
+    "translation": "freedom"
+  },
+  {
+    "romanji": "daiji",
+    "hiragana": "だいじ",
+    "katakana": "ダイジ",
+    "translation": "important"
+  },
+  {
+    "romanji": "hikou",
+    "hiragana": "ひこう",
+    "katakana": "ヒコウ",
+    "translation": "flight"
+  },
+  {
+    "romanji": "douga",
+    "hiragana": "どうが",
+    "katakana": "ドウガ",
+    "translation": "video"
+  },
+  {
+    "romanji": "kamoshirenai",
+    "hiragana": "かもしれない",
+    "katakana": "カモシレナイ",
+    "translation": "maybe"
+  },
+  {
+    "romanji": "shirabete",
+    "hiragana": "しらべて",
+    "katakana": "シラベテ",
+    "translation": "investigate"
+  },
+  {
+    "romanji": "chikyuu",
+    "hiragana": "ちきゅう",
+    "katakana": "チキュウ",
+    "translation": "Earth"
+  },
+  {
+    "romanji": "toubousha",
+    "hiragana": "とうぼうしゃ",
+    "katakana": "トウボウシャ",
+    "translation": "fugitive"
+  },
+  {
+    "romanji": "hakobu",
+    "hiragana": "はこぶ",
+    "katakana": "ハコブ",
+    "translation": "carry"
+  },
+  {
+    "romanji": "sodateru",
+    "hiragana": "そだてる",
+    "katakana": "ソダテル",
+    "translation": "raise"
+  },
+  {
+    "romanji": "kouka",
+    "hiragana": "こうか",
+    "katakana": "コウカ",
+    "translation": "effect"
+  },
+  {
+    "romanji": "yoru",
+    "hiragana": "よる",
+    "katakana": "ヨル",
+    "translation": "night"
+  },
+  {
+    "romanji": "yuki",
+    "hiragana": "ゆき",
+    "katakana": "ユキ",
+    "translation": "snow"
+  },
+  {
+    "romanji": "yugure",
+    "hiragana": "ゆうぐれ",
+    "katakana": "ユウグレ",
+    "translation": "dusk"
+  },
+  {
+    "romanji": "hagaki",
+    "hiragana": "はがき",
+    "katakana": "ハガキ",
+    "translation": "postcard"
+  },
+  {
+    "romanji": "doa",
+    "hiragana": "どあ",
+    "katakana": "ドア",
+    "translation": "door"
+  },
+  {
+    "romanji": "shousetsu",
+    "hiragana": "しょうせつ",
+    "katakana": "ショウセツ",
+    "translation": "novel"
+  },
+  {
+    "romanji": "tensai",
+    "hiragana": "てんさい",
+    "katakana": "テンサイ",
+    "translation": "genius"
+  },
+  {
+    "romanji": "daiji",
+    "hiragana": "だいじ",
+    "katakana": "ダイジ",
+    "translation": "important"
+  },
+  {
+    "romanji": "daijina",
+    "hiragana": "だいじな",
+    "katakana": "ダイジナ",
+    "translation": "valuable"
   }
 ]

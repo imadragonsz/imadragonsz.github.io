@@ -85,13 +85,13 @@
   },
   {
     "romanji": "Doko ni ikitai desu ka?",
-    "hiragana": "どこに行きたいですか？",
+    "hiragana": "どこにいきたいですか？",
     "katakana": "ドコニイキタイデスカ？",
     "translation": "Where would you like to go?"
   },
   {
     "romanji": "Ginza ni ikitai desu",
-    "hiragana": "ぎんざに行きたいです。",
+    "hiragana": "ぎんざにいきたいです。",
     "katakana": "ギンザニイキタイデス。",
     "translation": "I want to go to Ginza"
   },
@@ -103,8 +103,8 @@
   },
   {
     "romanji": "Konnichi wa, atarashii resutoran ni ikitai desu",
-    "hiragana": "こんにちは、あたらしいレストランに行きたいです。",
-    "katakana": "コンニチワ、アタラシイレストランニイキタイデス。",
+    "hiragana": "こんにちは、あたらしいレストランにいきたいです。",
+    "katakana": "コンニチハ、アタラシイレストランニイキタイデス。",
     "translation": "Hello, I want to go to a new restaurant"
   },
   {
@@ -180,12 +180,6 @@
     "translation": "It's raining"
   },
   {
-    "romanji": "Koko wa doko desu ka?",
-    "hiragana": "ここはどこですか？",
-    "katakana": "ココハドコデスカ？",
-    "translation": "Where is this place?"
-  },
-  {
     "romanji": "Arigatou gozaimashita",
     "hiragana": "ありがとうございました。",
     "katakana": "アリガトウゴザイマシタ。",
@@ -204,100 +198,40 @@
     "translation": "I don't understand Japanese"
   },
   {
-    "romanji": "Koko wa omoshiroi desu",
-    "hiragana": "ここはおもしろいです。",
-    "katakana": "ココハオモシロイデス。",
-    "translation": "This place is interesting"
+    "romanji": "Anata no namae wa nan desu ka?",
+    "hiragana": "あなたのなまえはなんですか？",
+    "katakana": "アナタノナマエハナンデスカ？",
+    "translation": "What is your name?"
   },
   {
-    "romanji": "Nihon e youkoso!",
-    "hiragana": "にほんへようこそ！",
-    "katakana": "ニホンヘヨウコソ！",
-    "translation": "Welcome to Japan!"
+    "romanji": "Issho ni ikimasu ka?",
+    "hiragana": "いっしょにいきますか？",
+    "katakana": "イッショニイキマスカ？",
+    "translation": "Shall we go together?"
   },
   {
-    "romanji": "Douitashimashite",
-    "hiragana": "どういたしまして。",
-    "katakana": "ドウイタシマシテ。",
-    "translation": "You're welcome"
+    "romanji": "Mizu o kudasai",
+    "hiragana": "みずをください。",
+    "katakana": "ミズヲクダサイ。",
+    "translation": "Please give me water"
   },
   {
-    "romanji": "Mou ikkai onegaishimasu",
-    "hiragana": "もういっかいおねがいします。",
-    "katakana": "モウイッカイオネガイシマス。",
-    "translation": "Once again, please"
+    "romanji": "Kore wa ikura desu ka?",
+    "hiragana": "これはいくらですか？",
+    "katakana": "コレハイクラデスカ？",
+    "translation": "How much is this?"
   },
   {
-    "romanji": "Gomennasai, machigai mashita",
-    "hiragana": "ごめんなさい、まちがいました。",
-    "katakana": "ゴメンナサイ、マチガイマシタ。",
-    "translation": "I'm sorry, I was mistaken"
+    "romanji": "Iie, kekkou desu",
+    "hiragana": "いいえ、けっこうです。",
+    "katakana": "イイエ、ケッコウデス。",
+    "translation": "No, thank you"
   },
   {
-    "romanji": "Eki made onegaishimasu",
-    "hiragana": "えきまでおねがいします。",
-    "katakana": "エキマデオネガイシマス。",
-    "translation": "To the station, please"
-  },
-  {
-    "romanji": "Sore wa kawaii desu ne!",
-    "hiragana": "それはかわいいですね！",
-    "katakana": "ソレハカワイイデスネ！",
-    "translation": "That's cute, isn't it?"
-  },
-  {
-    "romanji": "Kono mise wa ikura desu ka?",
-    "hiragana": "このみせはいくらですか？",
-    "katakana": "コノミセハイクラデスカ？",
-    "translation": "How much is this shop?"
-  },
-  {
-    "romanji": "Koko de tashikani machi mashita",
-    "hiragana": "ここでたしかにまちました。",
-    "katakana": "ココデタシカニマチマシタ。",
-    "translation": "I definitely waited here"
-  },
-  {
-    "romanji": "Mou ichido onegaishimasu",
-    "hiragana": "もういちどおねがいします。",
-    "katakana": "モウイチドオネガイシマス。",
-    "translation": "Once more, please"
-  },
-  {
-    "romanji": "Eki wa doko desu ka?",
-    "hiragana": "えきはどこですか？",
-    "katakana": "エキハドコデスカ？",
-    "translation": "Where is the train station?"
-  },
-  {
-    "romanji": "Ima nanji desu ka?",
-    "hiragana": "いまなんじですか？",
-    "katakana": "イマナンジデスカ？",
-    "translation": "What time is it now?"
-  },
-  {
-    "romanji": "Koko wa ii toko desu",
-    "hiragana": "ここはいいとこです。",
-    "katakana": "ココハイイトコデス。",
-    "translation": "This is a nice place"
-  },
-  {
-    "romanji": "Kore o misete kudasai",
-    "hiragana": "これをみせてください。",
-    "katakana": "コレヲミセテクダサイ。",
-    "translation": "Please show me this"
-  },
-  {
-    "romanji": "Sore wa ii ideia desu",
-    "hiragana": "それはいいいでいあです。",
-    "katakana": "ソレハイイイデイアデス。",
-    "translation": "That's a good idea"
-  },
-  {
-    "romanji": "Hitori desu",
-    "hiragana": "ひとりです。",
-    "katakana": "ヒトリデス。",
-    "translation": "I am alone"
+    "romanji": "Daijoubu desu",
+    "hiragana": "だいじょうぶです。",
+    "katakana": "ダイジョウブデス。",
+    "translation": "It's okay"
   },
   {
     "romanji": "Kore wa nan desu ka?",
@@ -306,220 +240,106 @@
     "translation": "What is this?"
   },
   {
-    "romanji": "Watashi wa sou desu",
-    "hiragana": "わたしはそうです。",
-    "katakana": "ワタシハソウデス。",
-    "translation": "That's right"
+    "romanji": "Watashi no namae wa...",
+    "hiragana": "わたしのなまえは...",
+    "katakana": "ワタシノナマエハ...",
+    "translation": "My name is..."
   },
   {
-    "romanji": "Eki wa doko desu ka?",
-    "hiragana": "えきはどこですか？",
-    "katakana": "エキハドコデスカ？",
-    "translation": "Where is the train station?"
+    "romanji": "Koko ni sundeimasu",
+    "hiragana": "ここにすんでいます。",
+    "katakana": "ココニスンデイマス。",
+    "translation": "I live here"
   },
   {
-    "romanji": "Kore wa nan desu ka?",
-    "hiragana": "これはなんですか？",
-    "katakana": "コレハナンデスカ？",
-    "translation": "What is this?"
+    "romanji": "Yasui desu",
+    "hiragana": "やすいです。",
+    "katakana": "ヤスイデス。",
+    "translation": "It's cheap"
   },
   {
-    "romanji": "Soudesu ka?",
-    "hiragana": "そうですか？",
-    "katakana": "ソウデスカ？",
-    "translation": "Is that so?"
+    "romanji": "Nihon ni ikitai desu",
+    "hiragana": "にほんにいきたいです。",
+    "katakana": "ニホンニイキタイデス。",
+    "translation": "I want to go to Japan"
   },
   {
-    "romanji": "Sumimasen, toire wa doko desu ka?",
-    "hiragana": "すみません、トイレはどこですか？",
-    "katakana": "スミマセン、トイレハドコデスカ？",
-    "translation": "Excuse me, where is the restroom?"
+    "romanji": "Fujisan o mitai desu",
+    "hiragana": "ふじさんをみたいです。",
+    "katakana": "フジサンヲミタイデス。",
+    "translation": "I want to see Mount Fuji"
   },
   {
-    "romanji": "Soudesu",
-    "hiragana": "そうです。",
-    "katakana": "ソウデス。",
-    "translation": "That's right"
+    "romanji": "Kudasai, hayaku!",
+    "hiragana": "ください、はやく！",
+    "katakana": "クダサイ、ハヤク！",
+    "translation": "Please, hurry!"
   },
   {
-    "romanji": "Sore wa nan desu ka?",
-    "hiragana": "それはなんですか？",
-    "katakana": "ソレハナンデスカ？",
-    "translation": "What is that?"
+    "romanji": "Watashi wa gakusei desu",
+    "hiragana": "わたしはがくせいです。",
+    "katakana": "ワタシハガクセイデス。",
+    "translation": "I am a student"
   },
   {
-    "romanji": "Iie, chigaimasu",
-    "hiragana": "いいえ、ちがいます。",
-    "katakana": "イイエ、チガイマス。",
-    "translation": "No, that's wrong"
+    "romanji": "Sore wa totemo omoshiroi desu",
+    "hiragana": "それはとてもおもしろいです。",
+    "katakana": "ソレハトテモオモシロイデス。",
+    "translation": "That is very interesting"
   },
   {
-    "romanji": "Nani ga arimasu ka?",
-    "hiragana": "なにがありますか？",
-    "katakana": "ナニガアリマスカ？",
-    "translation": "What is there?"
+    "romanji": "O-namae wa?",
+    "hiragana": "おなまえは？",
+    "katakana": "オナマエハ？",
+    "translation": "Your name?"
   },
   {
-    "romanji": "Ima nanji desu ka?",
-    "hiragana": "いまなんじですか？",
-    "katakana": "イマナンジデスカ？",
-    "translation": "What time is it now?"
+    "romanji": "Nihongo o benkyou shiteimasu",
+    "hiragana": "にほんごをべんきょうしています。",
+    "katakana": "ニホンゴヲベンキョウシテイマス。",
+    "translation": "I am studying Japanese"
   },
   {
-    "romanji": "Yasumi wa itsu desu ka?",
-    "hiragana": "やすみはいつですか？",
-    "katakana": "ヤスミハイツデスカ？",
-    "translation": "When is the holiday?"
+    "romanji": "Sumimasen, mou ichido itte kudasai",
+    "hiragana": "すみません、もういちどいってください。",
+    "katakana": "スミマセン、モウイチドイッテクダサイ。",
+    "translation": "Excuse me, please say it again"
   },
   {
-    "romanji": "Eigo ohanashimasu ka?",
-    "hiragana": "えいごをはなしますか？",
-    "katakana": "エイゴヲハナシマスカ？",
-    "translation": "Do you speak English?"
+    "romanji": "Watashi wa Amerika-jin desu",
+    "hiragana": "わたしはアメリカじんです。",
+    "katakana": "ワタシハアメリカジンデス。",
+    "translation": "I am American"
   },
   {
-    "romanji": "Sore wa doko ni arimasu ka?",
-    "hiragana": "それはどこにありますか？",
-    "katakana": "ソレハドコニアリマスカ？",
-    "translation": "Where is that?"
+    "romanji": "Itadakimasu",
+    "hiragana": "いただきます。",
+    "katakana": "イタダキマス。",
+    "translation": "Let's eat"
   },
   {
-    "romanji": "O-mizu o nomimasu",
-    "hiragana": "おみずをのみます。",
-    "katakana": "オミズヲノミマス。",
-    "translation": "I drink water"
+    "romanji": "Oishii desu ka?",
+    "hiragana": "おいしいですか？",
+    "katakana": "オイシイデスカ？",
+    "translation": "Is it delicious?"
   },
   {
-    "romanji": "Doko made ikimasu ka?",
-    "hiragana": "どこまでいきますか？",
-    "katakana": "ドコマデイキマスカ？",
-    "translation": "How far are you going?"
+    "romanji": "Eki made aruite ikimasu",
+    "hiragana": "えきまであるいていきます。",
+    "katakana": "エキマデアルイテイキマス。",
+    "translation": "I will walk to the station"
   },
   {
-    "romanji": "Kore wa doko desu ka?",
-    "hiragana": "これはどこですか？",
-    "katakana": "コレハドコデスカ？",
-    "translation": "Where is this?"
+    "romanji": "Watashi wa Nihon-go o hanasemasen",
+    "hiragana": "わたしはにほんごをはなせません。",
+    "katakana": "ワタシハニホンゴヲハナセマセン。",
+    "translation": "I can't speak Japanese"
   },
   {
-    "romanji": "Hai, sou desu",
-    "hiragana": "はい、そうです。",
-    "katakana": "ハイ、ソウデス。",
-    "translation": "Yes, that's correct"
-  },
-  {
-    "romanji": "Doko de kaigai chiketto o kaemasu ka?",
-    "hiragana": "どこでかいがいちけっとをかえますか？",
-    "katakana": "ドコデカイガイチケットヲカエマスカ？",
-    "translation": "Where can I buy an international ticket?"
-  },
-  {
-    "romanji": "Gomen nasai, wakarimasen",
-    "hiragana": "ごめんなさい、わかりません。",
-    "katakana": "ゴメンナサイ、ワカリマセン。",
-    "translation": "Sorry, I don't understand"
-  },
-  {
-    "romanji": "Watashi wa eigo o hanasemasen",
-    "hiragana": "わたしはえいごをはなせません。",
-    "katakana": "ワタシハエイゴヲハナセマセン。",
-    "translation": "I can't speak English"
-  },
-  {
-    "romanji": "Shashin o totte mo ii desu ka?",
-    "hiragana": "しゃしんをとってもいいですか？",
-    "katakana": "シャシンヲトッテモイイデスカ？",
-    "translation": "May I take a photo?"
-  },
-  {
-    "romanji": "Doko de kono bento o kaimasu ka?",
-    "hiragana": "どこでこのべんとうをかいますか？",
-    "katakana": "ドコデコノベントウヲカイマスカ？",
-    "translation": "Where can I buy this bento?"
-  },
-  {
-    "romanji": "Hai, sou desu",
-    "hiragana": "はい、そうです。",
-    "katakana": "ハイ、ソウデス。",
-    "translation": "Yes, that's correct"
-  },
-  {
-    "romanji": "Wakarimasu ka?",
-    "hiragana": "わかりますか？",
-    "katakana": "ワカリマスカ？",
-    "translation": "Do you understand?"
-  },
-  {
-    "romanji": "Onegaishimasu, kore o kudasai",
-    "hiragana": "おねがいします、これをください。",
-    "katakana": "オネガイシマス、コレヲクダサイ。",
-    "translation": "Please give me this"
-  },
-  {
-    "romanji": "Watashi wa nihongo ga sukoshi shika hanasemasen",
-    "hiragana": "わたしはにほんごがすこししかはなせません。",
-    "katakana": "ワタシハニホンゴガスコシシカハナセマセン。",
-    "translation": "I canonly speak a little Japanese"
-  },
-  {
-    "romanji": "Koko wa doko desu ka?",
-    "hiragana": "ここはどこですか？",
-    "katakana": "ココハドコデスカ？",
-    "translation": "Where is this?"
-  },
-  {
-    "romanji": "Arigatou gozaimasu",
-    "hiragana": "ありがとうございます。",
-    "katakana": "アリガトウゴザイマス。",
-    "translation": "Thank you very much"
-  },
-  {
-    "romanji": "Kore wa nan desu ka?",
-    "hiragana": "これはなんですか？",
-    "katakana": "コレハナンデスカ？",
-    "translation": "What is this?"
-  },
-  {
-    "romanji": "Sore wa nan desu ka?",
-    "hiragana": "それはなんですか？",
-    "katakana": "ソレハナンデスカ？",
-    "translation": "What is that?"
-  },
-  {
-    "romanji": "Soudesu",
-    "hiragana": "そうです。",
-    "katakana": "ソウデス。",
-    "translation": "That's right"
-  },
-  {
-    "romanji": "Wakarimasen",
-    "hiragana": "わかりません。",
-    "katakana": "ワカリマセン。",
-    "translation": "I don't understand"
-  },
-  {
-    "romanji": "Konnichiwa",
-    "hiragana": "こんにちは。",
-    "katakana": "コンニチハ。",
-    "translation": "Hello"
-  },
-  {
-    "romanji": "Sumimasen",
-    "hiragana": "すみません。",
-    "katakana": "スミマセン。",
-    "translation": "Excuse me"
-  },
-  {
-    "romanji": "Oishii desu",
-    "hiragana": "おいしいです。",
-    "katakana": "オイシイデス。",
-    "translation": "It's delicious"
-  },
-  {
-    "romanji": "Kirei desu",
-    "hiragana": "きれいです。",
-    "katakana": "キレイデス。",
-    "translation": "It's beautiful"
+    "romanji": "Gomen nasai",
+    "hiragana": "ごめんなさい。",
+    "katakana": "ゴメンナサイ。",
+    "translation": "I'm sorry"
   },
   {
     "romanji": "Doko desu ka?",
@@ -528,33 +348,105 @@
     "translation": "Where is it?"
   },
   {
-    "romanji": "Koko desu",
-    "hiragana": "ここです。",
-    "katakana": "ココデス。",
-    "translation": "Here it is"
+    "romanji": "Gochisousama deshita",
+    "hiragana": "ごちそうさまでした。",
+    "katakana": "ゴチソウサマデシタ。",
+    "translation": "Thank you for the meal"
   },
   {
-    "romanji": "Sore desu",
-    "hiragana": "それです。",
-    "katakana": "ソレデス。",
-    "translation": "That's it"
+    "romanji": "Shashin o totte kudasai",
+    "hiragana": "しゃしんをとってください。",
+    "katakana": "シャシンヲトッテクダサイ。",
+    "translation": "Please take a picture"
   },
   {
-    "romanji": "Onegaishimasu",
-    "hiragana": "おねがいします。",
-    "katakana": "オネガイシマス。",
-    "translation": "Please"
+    "romanji": "Oranda kara kimashita",
+    "hiragana": "オランダからきました。",
+    "katakana": "オランダカラキマシタ。",
+    "translation": "I'm from the Netherlands"
   },
   {
-    "romanji": "Domo arigatou gozaimasu",
-    "hiragana": "どうもありがとうございます。",
-    "katakana": "ドウモアリガトウゴザイマス。",
-    "translation": "Thank you very much"
+    "romanji": "Watashi wa Oranda-jin desu",
+    "hiragana": "わたしはオランダじんです。",
+    "katakana": "ワタシハオランダジンデス。",
+    "translation": "I am Dutch"
   },
   {
-    "romanji": "Mizu o kudasai",
-    "hiragana": "みずをください。",
-    "katakana": "ミズヲクダサイ。",
-    "translation": "Water, please"
+    "romanji": "Kore o kaitai desu.",
+    "hiragana": "これをかいたいです。",
+    "katakana": "コレヲカイタイデス。",
+    "translation": "I want to buy this."
+  },
+  {
+    "romanji": "Kono densha wa dokoiki desu ka?",
+    "hiragana": "このでんしゃはどこいきですか？",
+    "katakana": "コノデンシャハドコイキデスカ？",
+    "translation": "Where does this train go?"
+  },
+  {
+    "romanji": "Kono basu de ikemasu ka?",
+    "hiragana": "このバスでいけますか？",
+    "katakana": "コノバスデイケマスカ？",
+    "translation": "Can I go by this bus?"
+  },
+  {
+    "romanji": "Doko de chiketto o kaemasu ka?",
+    "hiragana": "どこでちけっとをかえますか？",
+    "katakana": "ドコデチケットヲカエマスカ？",
+    "translation": "Where can I buy tickets?"
+  },
+  {
+    "romanji": "Hoteru made no takushii wa ikura desu ka?",
+    "hiragana": "ホテルまでのタクシーはいくらですか？",
+    "katakana": "ホテルマデノタクシーハイクラデスカ？",
+    "translation": "How much is a taxi to the hotel?"
+  },
+  {
+    "romanji": "Kore o tsukatte mo ii desu ka?",
+    "hiragana": "これをつかってもいいですか？",
+    "katakana": "コレヲツカッテモイイデスカ？",
+    "translation": "Can I use this?"
+  },
+  {
+    "romanji": "Ikura jikan ga kakarimasu ka?",
+    "hiragana": "いくらじかんがかかりますか？",
+    "katakana": "イクラジカンガカカリマスカ？",
+    "translation": "How much time does it take?"
+  },
+  {
+    "romanji": "Osusume no kankou supotto wa arimasu ka?",
+    "hiragana": "おすすめのかんこうすぽっとはありますか？",
+    "katakana": "オススメノカンコウスポットハアリマスカ？",
+    "translation": "Do you have any recommended tourist spots?"
+  },
+  {
+    "romanji": "Kore wa douyatte tsukaimasu ka?",
+    "hiragana": "これはどうやってつかいますか？",
+    "katakana": "コレハドウヤッテツカイマスカ？",
+    "translation": "How do you use this?"
+  },
+  {
+    "romanji": "Doko de omiyage o kaemasu ka?",
+    "hiragana": "どこでおみやげをかえますか？",
+    "katakana": "ドコデオミヤゲヲカエマスカ？",
+    "translation": "Where can I buy souvenirs?"
+  },
+  {
+    "romanji": "Kono shoppingu mooru wa nanji made aite imasu ka?",
+    "hiragana": "このショッピングモールはなんじまであいていますか？",
+    "katakana": "コノショッピングモールハナンジマデアイテイマスカ？",
+    "translation": "Until what time is this shopping mall open?"
+  },
+  {
+    "romanji": "Kore ni wa dore kurai kakarimasu ka?",
+    "hiragana": "これにはどれくらいかかりますか？",
+    "katakana": "コレニハドレクライカカリマスカ？",
+    "translation": "How much does this cost approximately?"
+  },
+  {
+    "romanji": "Kore wa oishii desu ka?",
+    "hiragana": "これはおいしいですか？",
+    "katakana": "コレハオイシイデスカ？",
+    "translation": "Is this delicious?"
   }
 ]

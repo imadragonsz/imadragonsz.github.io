@@ -358,5 +358,125 @@
     "hiragana": "はまち",
     "katakana": "ハマチ",
     "translation": "yellowtail"
+  },
+  {
+    "romanji": "imishinchou",
+    "hiragana": "いみしんちょう",
+    "katakana": "イミシンチョウ",
+    "translation": "Profound"
+  },
+  {
+    "romanji": "yuuga",
+    "hiragana": "ゆうが",
+    "katakana": "ユウガ",
+    "translation": "Elegance"
+  },
+  {
+    "romanji": "senren",
+    "hiragana": "せんれん",
+    "katakana": "センレン",
+    "translation": "Refinement"
+  },
+  {
+    "romanji": "zetsumyō",
+    "hiragana": "ぜつみょう",
+    "katakana": "ゼツミョウ",
+    "translation": "Exquisite"
+  },
+  {
+    "romanji": "ryūchō",
+    "hiragana": "りゅうちょう",
+    "katakana": "リュウチョウ",
+    "translation": "Fluent"
+  },
+  {
+    "romanji": "yūben",
+    "hiragana": "ゆうべん",
+    "katakana": "ユウベン",
+    "translation": "Eloquence"
+  },
+  {
+    "romanji": "karei",
+    "hiragana": "かれい",
+    "katakana": "カレイ",
+    "translation": "Magnificent"
+  },
+  {
+    "romanji": "sūkō",
+    "hiragana": "すうこう",
+    "katakana": "スウコウ",
+    "translation": "Sublime"
+  },
+  {
+    "romanji": "eichi",
+    "hiragana": "えいち",
+    "katakana": "エイチ",
+    "translation": "Wisdom"
+  },
+  {
+    "romanji": "sōdai",
+    "hiragana": "そうだい",
+    "katakana": "ソウダイ",
+    "translation": "Grand"
+  },
+  {
+    "romanji": "dōsatsuryoku",
+    "hiragana": "どうさつりょく",
+    "katakana": "ドウサツリョク",
+    "translation": "Insight"
+  },
+  {
+    "romanji": "takuetsu",
+    "hiragana": "たくえつ",
+    "katakana": "タクエツ",
+    "translation": "Excellence"
+  },
+  {
+    "romanji": "sensai",
+    "hiragana": "せんさい",
+    "katakana": "センサイ",
+    "translation": "Delicate"
+  },
+  {
+    "romanji": "kōshō",
+    "hiragana": "こうしょう",
+    "katakana": "コウショウ",
+    "translation": "High-minded"
+  },
+  {
+    "romanji": "tanrei",
+    "hiragana": "たんれい",
+    "katakana": "タンレイ",
+    "translation": "Beautiful"
+  },
+  {
+    "romanji": "okubukai",
+    "hiragana": "おくぶかい",
+    "katakana": "オクブカイ",
+    "translation": "Deep"
+  },
+  {
+    "romanji": "gachi",
+    "hiragana": "がち",
+    "katakana": "ガチ",
+    "translation": "Grace"
+  },
+  {
+    "romanji": "jukuren",
+    "hiragana": "じゅくれん",
+    "katakana": "ジュクレン",
+    "translation": "Skilled"
+  },
+  {
+    "romanji": "shinpiteki",
+    "hiragana": "しんぴてき",
+    "katakana": "シンピテキ",
+    "translation": "Mysterious"
+  },
+  {
+    "romanji": "kōketsu",
+    "hiragana": "こうけつ",
+    "katakana": "コウケツ",
+    "translation": "Noble"
   }
 ]
