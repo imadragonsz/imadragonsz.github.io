@@ -9,7 +9,7 @@
     "romanji": "sumimasen",
     "hiragana": "すみません",
     "katakana": "スミマセン",
-    "translation": "excuse me / I'm sorry"
+    "translation": "excuse me"
   },
   {
     "romanji": "douitashimashite",
@@ -72,12 +72,6 @@
     "translation": "big"
   },
   {
-    "romanji": "inu",
-    "hiragana": "いぬ",
-    "katakana": "イヌ",
-    "translation": "dog"
-  },
-  {
     "romanji": "kasa",
     "hiragana": "かさ",
     "katakana": "カサ",
@@ -88,12 +82,6 @@
     "hiragana": "やさい",
     "katakana": "ヤサイ",
     "translation": "vegetable"
-  },
-  {
-    "romanji": "tori",
-    "hiragana": "とり",
-    "katakana": "トリ",
-    "translation": "bird"
   },
   {
     "romanji": "tegami",
@@ -118,18 +106,6 @@
     "hiragana": "はし",
     "katakana": "ハシ",
     "translation": "bridge"
-  },
-  {
-    "romanji": "ushi",
-    "hiragana": "うし",
-    "katakana": "ウシ",
-    "translation": "cow"
-  },
-  {
-    "romanji": "sake",
-    "hiragana": "さけ",
-    "katakana": "サケ",
-    "translation": "salmon"
   },
   {
     "romanji": "tai",
@@ -196,132 +172,6 @@
     "hiragana": "はまち",
     "katakana": "ハマチ",
     "translation": "yellowtail"
-  },
-  {
-    "romanji": "arigatou",
-    "hiragana": "ありがとう",
-    "katakana": "アリガトウ",
-    "translation": "thank you"
-  },
-  {
-    "romanji": "konnichiwa",
-    "hiragana": "こんにちは",
-    "katakana": "コンニチハ",
-    "translation": "hello"
-  },
-  {
-    "romanji": "ohayou",
-    "hiragana": "おはよう",
-    "katakana": "オハヨウ",
-    "translation": "good morning"
-  },
-  {
-    "romanji": "genki",
-    "hiragana": "げんき",
-    "katakana": "ゲンキ",
-    "translation": "healthy"
-  },
-  {
-    "romanji": "hai",
-    "hiragana": "はい",
-    "katakana": "ハイ",
-    "translation": "yes"
-  },
-  {
-    "romanji": "iie",
-    "hiragana": "いいえ",
-    "katakana": "イイエ",
-    "translation": "no"
-  },
-  {
-    "romanji": "neko",
-    "hiragana": "ねこ",
-    "katakana": "ネコ",
-    "translation": "cat"
-  },
-  {
-    "romanji": "inu",
-    "hiragana": "いぬ",
-    "katakana": "イヌ",
-    "translation": "dog"
-  },
-  {
-    "romanji": "kuma",
-    "hiragana": "くま",
-    "katakana": "クマ",
-    "translation": "bear"
-  },
-  {
-    "romanji": "sakana",
-    "hiragana": "さかな",
-    "katakana": "サカナ",
-    "translation": "fish"
-  },
-  {
-    "romanji": "kame",
-    "hiragana": "かめ",
-    "katakana": "カメ",
-    "translation": "turtle"
-  },
-  {
-    "romanji": "ushi",
-    "hiragana": "うし",
-    "katakana": "ウシ",
-    "translation": "cow"
-  },
-  {
-    "romanji": "tora",
-    "hiragana": "とら",
-    "katakana": "トラ",
-    "translation": "tiger"
-  },
-  {
-    "romanji": "uma",
-    "hiragana": "うま",
-    "katakana": "ウマ",
-    "translation": "horse"
-  },
-  {
-    "romanji": "usagi",
-    "hiragana": "うさぎ",
-    "katakana": "ウサギ",
-    "translation": "rabbit"
-  },
-  {
-    "romanji": "saru",
-    "hiragana": "さる",
-    "katakana": "サル",
-    "translation": "monkey"
-  },
-  {
-    "romanji": "risu",
-    "hiragana": "りす",
-    "katakana": "リス",
-    "translation": "squirrel"
-  },
-  {
-    "romanji": "kiji",
-    "hiragana": "きじ",
-    "katakana": "キジ",
-    "translation": "pheasant"
-  },
-  {
-    "romanji": "kitsune",
-    "hiragana": "きつね",
-    "katakana": "キツネ",
-    "translation": "fox"
-  },
-  {
-    "romanji": "kirin",
-    "hiragana": "きりん",
-    "katakana": "キリン",
-    "translation": "giraffe"
-  },
-  {
-    "romanji": "shika",
-    "hiragana": "しか",
-    "katakana": "シカ",
-    "translation": "deer"
   },
   {
     "romanji": "kawauso",

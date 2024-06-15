@@ -3,7 +3,7 @@ let characters = [];
 const answerInput = document.getElementById("romanjiInput");
 
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("../words/hangul.json")
+  fetch("../words/korean/hangul.json")
     .then((response) => response.json())
     .then((data) => {
       document

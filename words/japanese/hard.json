@@ -18,12 +18,6 @@
     "translation": "paper"
   },
   {
-    "romanji": "ringo",
-    "hiragana": "りんご",
-    "katakana": "リンゴ",
-    "translation": "apple"
-  },
-  {
     "romanji": "benkyou",
     "hiragana": "べんきょう",
     "katakana": "ベンキョウ",
@@ -40,12 +34,6 @@
     "hiragana": "でんしゃ",
     "katakana": "デンシャ",
     "translation": "train"
-  },
-  {
-    "romanji": "gakkou",
-    "hiragana": "がっこう",
-    "katakana": "ガッコウ",
-    "translation": "school"
   },
   {
     "romanji": "ima",

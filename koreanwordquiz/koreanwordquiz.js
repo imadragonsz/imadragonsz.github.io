@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const kpopWords = []; // Assuming kpopWords array exists in the JSON data
 
   // Fetch the JSON data
-  fetch("../words/hangul explanation.json") // Adjusted the file name
+  fetch("../words/korean/hangul explanation.json") // Adjusted the file name
     .then((response) => response.json())
     .then((data) => {
       // Extract commonWords and kpopWords from the JSON

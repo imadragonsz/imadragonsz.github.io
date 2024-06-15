@@ -1,4 +1,4 @@
-fetch("../words/hangul explanation.json")
+fetch("../words/korean/hangul explanation.json")
   .then((response) => response.json())
   .then((data) => {
     const Consonants = document.getElementById("Consonants");

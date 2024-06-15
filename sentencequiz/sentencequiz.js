@@ -19,7 +19,7 @@ formatSelect.addEventListener("change", () => {
 
 // Fetch sentences from JSON file
 function fetchSentences(format) {
-  const url = "../words/sentences.json"; // Adjust the path accordingly
+  const url = "../words/japanese/sentences.json"; // Adjust the path accordingly
   fetch(url)
     .then((response) => {
       if (!response.ok) {

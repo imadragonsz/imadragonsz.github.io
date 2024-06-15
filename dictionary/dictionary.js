@@ -23,7 +23,7 @@ function populateWordList(data, scriptType) {
 
 document.getElementById("wordType").addEventListener("change", function () {
   const selectedType = this.value;
-  fetch(`../words/${selectedType}.json`)
+  fetch(`../words/japanese/${selectedType}.json`)
     .then((response) => response.json())
     .then((data) => {
       const scriptType = document.getElementById("scriptType").value;
@@ -34,7 +34,7 @@ document.getElementById("wordType").addEventListener("change", function () {
 document.getElementById("scriptType").addEventListener("change", function () {
   const selectedScript = this.value;
   const selectedType = document.getElementById("wordType").value;
-  fetch(`../words/${selectedType}.json`)
+  fetch(`../words/japanese/${selectedType}.json`)
     .then((response) => response.json())
     .then((data) => {
       populateWordList(data, selectedScript);
@@ -42,7 +42,7 @@ document.getElementById("scriptType").addEventListener("change", function () {
 });
 
 // Initially populate word list with default selections
-fetch("../words/easy.json")
+fetch("../words/japanese/easy.json")
   .then((response) => response.json())
   .then((data) => {
     const defaultScriptType = document.getElementById("scriptType").value;
