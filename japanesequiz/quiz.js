@@ -186,9 +186,11 @@ function revealAnswer() {
   document.getElementById("resultMessage").innerText = currentCharacter.romaji;
   setTimeout(() => {
     nextCharacter();
-    setTimeout(enableButtons, 3000);
+    enableButtons();
   }, 3000);
 }
+
+//functions to disable and enable the buttons
 function disableButtons() {
   document.getElementById("revealBtn").disabled = true;
   document.getElementById("skipBtn").disabled = true;

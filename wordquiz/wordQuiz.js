@@ -87,7 +87,7 @@ function revealAnswer() {
   resultDisplay.style.color = "white";
   setTimeout(() => {
     nextQuestion();
-    setTimeout(enableButtons, 3000);
+    enableButtons();
   }, 3000);
 }
 

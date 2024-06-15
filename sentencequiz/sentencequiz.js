@@ -79,7 +79,7 @@ function revealAnswer() {
   resultDisplay.style.color = "white";
   setTimeout(() => {
     nextQuestion();
-    setTimeout(enableButtons, 3000);
+    enableButtons();
   }, 3000);
 }
 
@@ -93,6 +93,7 @@ function nextQuestion() {
   displayQuestion();
 }
 
+//functions to disable and enable the buttons
 function disableButtons() {
   document.getElementById("revealBtn").disabled = true;
   document.getElementById("checkBtn").disabled = true;

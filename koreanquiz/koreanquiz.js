@@ -55,12 +55,26 @@ function checkAnswer() {
 }
 
 function revealAnswer() {
+  disableButtons();
   document.getElementById("resultMessage").innerText = currentCharacter.romaji;
-  setTimeout(nextCharacter, 3000);
+  setTimeout(() => {
+    nextCharacter();
+    enableButtons();
+  }, 3000);
 }
 
 function skipQuestion() {
   nextCharacter();
+}
+
+function disableButtons() {
+  document.getElementById("revealBtn").disabled = true;
+  document.getElementById("checkBtn").disabled = true;
+}
+
+function enableButtons() {
+  document.getElementById("revealBtn").disabled = false;
+  document.getElementById("checkBtn").disabled = false;
 }
 
 answerInput.addEventListener("keypress", function (event) {
