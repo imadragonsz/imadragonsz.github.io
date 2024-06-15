@@ -58,11 +58,6 @@ answerInput.addEventListener("keypress", function (event) {
   }
 });
 
-// Event listeners
-checkBtn.addEventListener("click", checkAnswer);
-revealBtn.addEventListener("click", revealAnswer);
-skipBtn.addEventListener("click", skipQuestion);
-
 // Check answer
 function checkAnswer() {
   const userAnswer = answerInput.value.trim().toLowerCase();
@@ -79,9 +74,13 @@ function checkAnswer() {
 
 // Reveal correct answer
 function revealAnswer() {
+  disableButtons();
   resultDisplay.textContent = `Correct Answer: ${sentences[randomSentence].translation}`;
-  resultDisplay.style.color = "blue";
-  setTimeout(nextQuestion, 3000);
+  resultDisplay.style.color = "white";
+  setTimeout(() => {
+    nextQuestion();
+    setTimeout(enableButtons, 3000);
+  }, 3000);
 }
 
 // Skip current question
@@ -92,6 +91,16 @@ function skipQuestion() {
 // Move to the next question
 function nextQuestion() {
   displayQuestion();
+}
+
+function disableButtons() {
+  document.getElementById("revealBtn").disabled = true;
+  document.getElementById("checkBtn").disabled = true;
+}
+
+function enableButtons() {
+  document.getElementById("revealBtn").disabled = false;
+  document.getElementById("checkBtn").disabled = false;
 }
 
 // Initial load

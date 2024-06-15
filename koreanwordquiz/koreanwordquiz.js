@@ -97,12 +97,14 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function revealAnswer() {
+    answerInput.value = "";
     disableButtons();
     showCorrectAnswer();
     setTimeout(nextQuestion, 3000); // Move to the next question after 3 seconds
   }
 
   function skipQuestion() {
+    answerInput.value = "";
     setRandomQuestionIndex(); // Set a new random question index
     showQuestion();
     document.getElementById("result").textContent = "";

@@ -182,8 +182,21 @@ function checkAnswer(event) {
 }
 
 function revealAnswer() {
+  disableButtons();
   document.getElementById("resultMessage").innerText = currentCharacter.romaji;
-  setTimeout(nextCharacter, 3000);
+  setTimeout(() => {
+    nextCharacter();
+    setTimeout(enableButtons, 3000);
+  }, 3000);
+}
+function disableButtons() {
+  document.getElementById("revealBtn").disabled = true;
+  document.getElementById("skipBtn").disabled = true;
+}
+
+function enableButtons() {
+  document.getElementById("revealBtn").disabled = false;
+  document.getElementById("skipBtn").disabled = false;
 }
 
 function skipQuestion() {
