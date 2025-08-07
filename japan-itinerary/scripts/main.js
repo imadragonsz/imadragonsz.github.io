@@ -26,7 +26,6 @@ document.addEventListener("DOMContentLoaded", function () {
       navContent.style.display =
         navContent.style.display === "block" ? "none" : "block";
     });
-    // Hide menu by default
     navContent.style.display = "none";
   }
 
@@ -35,3 +34,47 @@ document.addEventListener("DOMContentLoaded", function () {
     btn.addEventListener("click", showActivitySummary);
   }
 });
+
+async function loadParticipants() {
+  const { data, error } = await supabase
+    .from("Itinerary")
+    .select("participants");
+  if (error) {
+    console.error("Error loading participants:", error);
+    return;
+  }
+  // Collect all participants from all rows
+  let allNames = [];
+  data.forEach((row) => {
+    if (row.participants) {
+      allNames = allNames.concat(
+        row.participants.split(";").map((n) => n.trim())
+      );
+    }
+  });
+  // Remove duplicates and empty strings
+  participants = [...new Set(allNames)].filter(Boolean);
+  people = [...participants]; // If you use 'people' elsewhere
+  renderParticipants();
+  // If you have checkboxes or other UI, call their render function here
+  // renderParticipantCheckboxes();
+}
+
+// Render participants list in the collapsible menu
+function renderParticipants() {
+  const list = document.getElementById("participants-list");
+  list.innerHTML = "";
+  participants.forEach((name, idx) => {
+    const li = document.createElement("li");
+    li.textContent = name;
+    list.appendChild(li);
+  });
+}
+// Collapsible toggle for participants menu
+document.querySelector(".participants-toggle-btn").onclick = function () {
+  const content = document.querySelector(".participants-content");
+  content.style.display = content.style.display === "none" ? "block" : "none";
+};
+
+// Initial load
+loadParticipants();

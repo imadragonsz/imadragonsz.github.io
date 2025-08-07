@@ -389,3 +389,97 @@ body.dark-mode .summary-card {
   background: #26c6da;
   color: #222;
 }
+.participants-collapsible {
+  position: relative;
+  margin: 1em auto;
+  max-width: 300px;
+  text-align: center;
+  /* Remove background, box-shadow, color for consistency */
+  background: none;
+  box-shadow: none;
+  color: inherit;
+  border-radius: 8px;
+}
+
+.participants-toggle-btn {
+  background: #222;
+  color: #fff;
+  padding: 0.5em 1.2em;
+  border-radius: 6px;
+  font-size: 18px;
+  border: 1px solid #444;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 0.5em;
+  transition: background 0.2s, color 0.2s;
+  text-align: center;
+}
+.participants-toggle-btn:focus {
+  background: #222;
+  color: #ffd700;
+}
+.participants-toggle-btn:hover {
+  background: #444;
+  color: #ffd700;
+}
+
+.participants-content {
+  display: none;
+  flex-direction: column;
+  gap: 0.5em;
+  /* Remove background and border-radius for consistency */
+  padding: 0;
+  background: none;
+  border-radius: 0;
+}
+
+#participants-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1em 0;
+}
+#participants-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.3em;
+  background: #222;
+  color: #fff;
+  border-radius: 4px;
+  padding: 0.3em 0.7em;
+  font-size: 1em;
+  border: 1px solid #222;
+  justify-content: space-between;
+}
+.delete-participant-btn {
+  margin-left: 0.7em;
+  background: #222;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 2px 8px;
+  cursor: pointer;
+  font-size: 1em;
+}
+#participant-input {
+  height: 28px;
+  font-size: 1em;
+  padding: 2px 8px;
+  border-radius: 4px;
+  border: 1px solid #222;
+  background: #222;
+  color: #fff;
+  margin-right: 0.5em;
+  box-sizing: border-box;
+}
+.top-menus {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 2em;
+}
+.nav-collapsible,
+.participants-collapsible {
+  min-width: 220px;
+  max-width: 400px;
+}

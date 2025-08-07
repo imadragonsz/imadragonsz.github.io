@@ -10,11 +10,19 @@
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js/dist/umd/supabase.min.js"></script>
     <button class="dark-mode-btn" id="darkModeToggle">🌞</button>
     <h1>🇯🇵 Japan 3-Week Itinerary</h1>
-    <div class="nav-collapsible">
-      <button class="nav-toggle-btn">☰ Menu</button>
-      <div class="nav-content">
-        <a href="calendar.html" class="nav-btn">📅 Calendar View</a>
-        <a href="summary.html" class="nav-btn">📊 Activity Summary</a>
+    <div class="top-menus">
+      <div class="nav-collapsible">
+        <button class="nav-toggle-btn">☰ Menu</button>
+        <div class="nav-content">
+          <a href="calendar.html" class="nav-btn">📅 Calendar View</a>
+          <a href="summary.html" class="nav-btn">📊 Activity Summary</a>
+        </div>
+      </div>
+      <div class="participants-collapsible">
+        <button class="participants-toggle-btn">👥 Participants</button>
+        <div class="participants-content" style="display: none">
+          <ul id="participants-list"></ul>
+        </div>
       </div>
     </div>
     <div id="itinerary-container"></div>

@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", async function () {
-  const people = ["Mittchel", "Okke", "Patrick"];
   const summaryContainer = document.getElementById("summaryContainer");
 
   document.body.classList.add("dark-mode"); // Always start in dark mode

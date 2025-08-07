@@ -1,7 +1,8 @@
 async function loadItinerary() {
   const { data, error } = await supabase
     .from("Itinerary")
-    .select("id,week,activity,duration,participants,start_date,end_date");
+    .select("id,week,activity,duration,participants,start_date,end_date")
+    .neq("activity", "participants_master");
   if (error) {
     console.error("Supabase error:", error);
     return;

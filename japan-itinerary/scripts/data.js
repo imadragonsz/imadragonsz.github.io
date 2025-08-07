@@ -1,4 +1,4 @@
-const people = ["Mittchel", "Okke", "Patrick"];
+let people = ["Mittchel", "Okke", "Patrick"];
 let itineraryData = [];
 
 function groupByWeek(data) {
