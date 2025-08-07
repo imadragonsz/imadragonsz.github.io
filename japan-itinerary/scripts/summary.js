@@ -46,22 +46,46 @@ document.addEventListener("DOMContentLoaded", async function () {
   data.forEach((item) => {
     const participants = item.participants ? item.participants.split(";") : [];
     participants.forEach((p) => {
-      personMap[p].push({
-        activity: item.activity,
-        start_date: item.start_date,
-        end_date: item.end_date,
-      });
+      if (personMap[p]) {
+        personMap[p].push({
+          activity: item.activity,
+          start_date: item.start_date,
+          end_date: item.end_date,
+        });
+      }
     });
   });
 
-  // Render summary
+  // Render summary with collapsible cards
   summaryContainer.innerHTML = "";
   for (const person in personMap) {
     const card = document.createElement("div");
     card.className = "summary-card dark-mode";
-    const title = document.createElement("h3");
-    title.textContent = person;
-    card.appendChild(title);
+
+    // Collapsible header
+    const header = document.createElement("button");
+    header.className = "collapsible";
+    header.textContent = person;
+    header.style.width = "100%";
+    header.style.textAlign = "left";
+    header.style.fontSize = "1.1em";
+    header.style.padding = "0.7em 1em";
+    header.style.background = "#222";
+    header.style.color = "#26c6da";
+    header.style.border = "none";
+    header.style.borderRadius = "8px 8px 0 0";
+    header.style.cursor = "pointer";
+    header.style.marginBottom = "0";
+    card.appendChild(header);
+
+    // Collapsible content
+    const content = document.createElement("div");
+    content.className = "collapsible-content";
+    content.style.display = "none";
+    content.style.padding = "1em";
+    content.style.background = "#222";
+    content.style.borderRadius = "0 0 8px 8px";
+
     const ul = document.createElement("ul");
     personMap[person].forEach((act) => {
       const li = document.createElement("li");
@@ -74,7 +98,14 @@ document.addEventListener("DOMContentLoaded", async function () {
       }
       ul.appendChild(li);
     });
-    card.appendChild(ul);
+    content.appendChild(ul);
+    card.appendChild(content);
     summaryContainer.appendChild(card);
+
+    // Toggle collapsible on click
+    header.addEventListener("click", function () {
+      content.style.display =
+        content.style.display === "none" ? "block" : "none";
+    });
   }
 });
