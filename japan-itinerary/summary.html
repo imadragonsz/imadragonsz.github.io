@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Activity Summary</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body class="dark-mode">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js/dist/umd/supabase.min.js"></script>
+    <button class="dark-mode-btn" id="darkModeToggle">🌞</button>
+    <h1>📊 Activity Summary</h1>
+    <div class="nav-collapsible">
+      <button class="nav-toggle-btn">☰ Menu</button>
+      <div class="nav-content">
+        <a href="index.html" class="nav-btn">📅 Itinerary Editor</a>
+        <a href="calendar.html" class="nav-btn">📅 Calendar View</a>
+      </div>
+    </div>
+    <div id="summaryContainer"></div>
+    <script src="../japan-itinerary/scripts/supabaseClient.js"></script>
+    <script src="../japan-itinerary/scripts/data.js"></script>
+    <script src="../japan-itinerary/scripts/summary.js"></script>
+  </body>
+</html>
