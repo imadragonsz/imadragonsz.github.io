@@ -483,3 +483,49 @@ body.dark-mode .summary-card {
   min-width: 220px;
   max-width: 400px;
 }
+/* Make top menus stack on small screens */
+@media (max-width: 600px) {
+  .top-menus {
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: stretch;
+  }
+  .nav-collapsible,
+  .participants-collapsible {
+    max-width: 100%;
+    min-width: 0;
+    margin: 0 auto;
+  }
+  .summary-card,
+  .week-section {
+    max-width: 100vw;
+    margin: 0.5em 0;
+    padding: 0.5em;
+  }
+  #itinerary-container {
+    padding: 0.5em;
+  }
+  .collapsible,
+  .participants-toggle-btn,
+  .nav-toggle-btn {
+    font-size: 1em;
+    padding: 0.5em 0.7em;
+  }
+  #participant-input {
+    width: 100%;
+    margin-bottom: 0.5em;
+  }
+}
+
+/* Make buttons and inputs easier to tap */
+button,
+input[type="text"] {
+  font-size: 1em;
+  padding: 0.7em 1em;
+  border-radius: 6px;
+}
+
+/* Prevent horizontal scrolling */
+body {
+  overflow-x: hidden;
+}
