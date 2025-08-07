@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Itinerary Calendar View</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="dark-mode">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js/dist/umd/supabase.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+    <button class="dark-mode-btn" id="darkModeToggle">🌞</button>
+    <h1>📅 Calendar View</h1>
+    <div class="nav-collapsible">
+      <button class="nav-toggle-btn">☰ Menu</button>
+      <div class="nav-content">
+        <a href="index.html" class="nav-btn">📅 Itinerary Editor</a>
+        <a href="summary.html" class="nav-btn">📊 Activity Summary</a>
+      </div>
+    </div>
+    <div style="text-align: center; margin-bottom: 1em">
+      <button
+        id="calendar-fullscreen-btn"
+        class="add-btn"
+        style="display: inline-block"
+      >
+        ⛶ Full Screen
+      </button>
+    </div>
+    <div id="calendar">
+      <!-- Exit fullscreen button will be moved next to the calendar title by JS -->
+      <button
+        id="calendar-exit-fullscreen-btn"
+        class="add-btn"
+        style="display: none"
+      >
+        ✖ Exit Full Screen
+      </button>
+    </div>
+    <script src="supabaseClient.js"></script>
+    <script src="data.js"></script>
+    <script src="calendar.js"></script>
+  </body>
+</html>
