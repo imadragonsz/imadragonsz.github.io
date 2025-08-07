@@ -327,6 +327,7 @@ body.dark-mode .summary-card {
   border-radius: 4px;
   list-style: disc inside;
   border: none;
+  max-height: 40px;
 }
 .delete-subactivity-btn {
   margin-left: 0.3em;
